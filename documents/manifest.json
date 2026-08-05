@@ -3,9 +3,9 @@
   "updated": "2026-08-05",
   "namingConvention": "YYYY-MM-DD_LOAI-SO-COQUAN_noi-dung-ngan-gon.{pdf|doc}",
   "summary": {
-    "documents": 11,
-    "pages": 125,
-    "primaryProblems": 157,
+    "documents": 15,
+    "pages": 161,
+    "primaryProblems": 190,
     "priorityProblems": 8
   },
   "documents": [
@@ -173,6 +173,66 @@
       "path": "documents/dia-phuong/tinh-tay-ninh/2026-06-10_KH-2592-KH-UBND_trien-khai-he-sinh-thai-ai-tu-chu.doc",
       "sizeBytes": 58368,
       "sha256": "6a2f19be43df7e1cc2783f06ec0e73c34afb89755ba4a089eca3d8377262c2b1"
+    },
+    {
+      "id": "hue",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân thành phố Huế",
+      "number": "5878/UBND-CN",
+      "date": "2025-05-17",
+      "format": "PDF",
+      "pages": 4,
+      "primaryCount": 7,
+      "priorityCount": 0,
+      "originalName": "00.00.H57_5878_UBND_CN_2025_PL1_signed.pdf_29_5_2025_16_16_38_483_CH.pdf",
+      "path": "documents/dia-phuong/tp-hue/2025-05-17_CV-5878-UBND-CN_danh-muc-bai-toan-lon.pdf",
+      "sizeBytes": 515463,
+      "sha256": "d5ae0ac4b420e924b203ce83ccf497f8479b772d4cefadff40662aa622054860"
+    },
+    {
+      "id": "dong-thap",
+      "level": "Địa phương",
+      "authority": "Sở Khoa học và Công nghệ tỉnh Đồng Tháp",
+      "number": "604/SKHCN-TTCĐS",
+      "date": "2025-04-25",
+      "format": "PDF",
+      "pages": 4,
+      "primaryCount": 5,
+      "priorityCount": 0,
+      "originalName": "604_SKHCN-TTCDS_25042025-signed_02.pdf",
+      "path": "documents/dia-phuong/tinh-dong-thap/2025-04-25_CV-604-SKHCN-TTCDS_danh-muc-bai-toan-lon.pdf",
+      "sizeBytes": 1277876,
+      "sha256": "5762968a72f65a006b15dca7d7c7a870c8a9443a973b57fd095f2d8f53ad35c9"
+    },
+    {
+      "id": "da-nang",
+      "level": "Địa phương",
+      "authority": "Sở Khoa học và Công nghệ thành phố Đà Nẵng",
+      "number": "1235/SKHCN-CNTT",
+      "date": "2025-05-22",
+      "format": "PDF",
+      "pages": 17,
+      "primaryCount": 11,
+      "priorityCount": 0,
+      "originalName": "1235.SKHCN.CNTT.signed.signed.signed.pdf",
+      "path": "documents/dia-phuong/tp-da-nang/2025-05-22_CV-1235-SKHCN-CNTT_danh-muc-bai-toan-lon-dot-1.pdf",
+      "sizeBytes": 1379936,
+      "sha256": "293d9fe2dc12db6d107a7e83ccf154eafa839c46bf3918b1b7d6d119eb2c7cdd"
+    },
+    {
+      "id": "hai-phong",
+      "level": "Địa phương",
+      "authority": "Sở Khoa học và Công nghệ thành phố Hải Phòng",
+      "number": "1998/SKHCN-CNTT",
+      "date": "2025-07-16",
+      "format": "PDF",
+      "pages": 11,
+      "primaryCount": 10,
+      "priorityCount": 0,
+      "originalName": "danh-muc-cac-bai-toan-lon-cua-thanh-pho-theo-nghi-quyet-so-57-cua-bo-chinh-tri638895784075073201.pdf",
+      "path": "documents/dia-phuong/tp-hai-phong/2025-07-16_CV-1998-SKHCN-CNTT_danh-muc-bai-toan-lon.pdf",
+      "sizeBytes": 3033021,
+      "sha256": "363dd91208a2c650c0f788bf71509e2a4305852e0c707dcf978ff8c3951714c9"
     }
   ]
 }

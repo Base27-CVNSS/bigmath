@@ -40,6 +40,10 @@ for (const item of [...data.problems, ...data.priorities]) {
   }
 }
 
+for (const item of data.problems) {
+  assert(item.unit !== undefined && item.unit !== '', `${item.id} thiếu trường unit.`);
+}
+
 for (const doc of data.documents) {
   const rows = data.problems.filter((item) => item.source === doc.id).sort((a, b) => a.ordinal - b.ordinal);
   const expectedOrdinals = Array.from({ length: doc.primaryCount }, (_, index) => index + 1);
@@ -73,6 +77,17 @@ for (const doc of data.documents) {
 const pages = data.documents.reduce((sum, doc) => sum + doc.pages, 0);
 assert(pages === manifest.summary.pages, `Tổng số trang là ${pages}/${manifest.summary.pages}.`);
 assert(manifest.documents.length === data.documents.length, 'Manifest có thừa hoặc thiếu văn bản.');
+
+const index = readFileSync(resolve(root, 'index.html'), 'utf8');
+const readme = readFileSync(resolve(root, 'README.md'), 'utf8');
+const national = data.problems.filter((item) => documentsById.get(item.source)?.level === 'Bộ ngành').length;
+const local = data.problems.length - national;
+assert(index.includes(`id="heroTotal">${data.problems.length}<`), 'Tổng bài toán tĩnh trong index.html chưa được cập nhật.');
+assert(index.includes(`id="heroDocs">${data.documents.length}<`), 'Tổng văn bản tĩnh trong index.html chưa được cập nhật.');
+assert(index.includes(`id="statPages">${pages}<`), 'Tổng trang tĩnh trong index.html chưa được cập nhật.');
+assert(index.includes(`${national} bài toán cấp Bộ và ${local} bài toán cấp địa phương`), 'Mô tả biểu đồ cơ cấu trong index.html chưa được cập nhật.');
+assert(readme.includes(`dữ_liệu-${data.problems.length}_bài_toán`), 'Badge tổng bài toán trong README.md chưa được cập nhật.');
+assert(readme.includes(`nguồn-${data.documents.length}_văn_bản`), 'Badge tổng văn bản trong README.md chưa được cập nhật.');
 
 if (failures.length) {
   console.error(`BigMath chưa hợp lệ (${failures.length} lỗi):`);

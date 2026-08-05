@@ -1,6 +1,6 @@
 window.BIGMATH_DATA = {
   "updated": "2026-08-05",
-  "methodology": "Tổng số bài toán chính được tính theo danh mục chính của từng văn bản. Riêng Kế hoạch 2592/KH-UBND của Tây Ninh được tính một lần theo bài toán lớn nêu trực tiếp trong tiêu đề. 8 mục ưu tiên tại Phụ lục 2 của An Giang được thống kê riêng để tránh cộng trùng. Hai tệp nguồn Vĩnh Phúc giống hệt nhau được lưu một bản duy nhất.",
+  "methodology": "Tổng số bài toán chính được tính theo danh mục chính của từng văn bản. Riêng Kế hoạch 2592/KH-UBND của Tây Ninh được tính một lần theo bài toán lớn nêu trực tiếp trong tiêu đề; Công văn 1235/SKHCN-CNTT của Đà Nẵng được ghi nhận là danh mục đề xuất đợt 1. 8 mục ưu tiên tại Phụ lục 2 của An Giang được thống kê riêng để tránh cộng trùng. Hai tệp nguồn Vĩnh Phúc giống hệt nhau được lưu một bản duy nhất.",
   "documents": [
     {
       "id": "bo-khcn",
@@ -166,6 +166,66 @@ window.BIGMATH_DATA = {
       "primaryCount": 1,
       "priorityCount": 0,
       "path": "documents/dia-phuong/tinh-tay-ninh/2026-06-10_KH-2592-KH-UBND_trien-khai-he-sinh-thai-ai-tu-chu.doc"
+    },
+    {
+      "id": "hue",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân thành phố Huế",
+      "place": "Huế",
+      "date": "2025-05-17",
+      "year": 2025,
+      "type": "Công văn",
+      "number": "5878/UBND-CN",
+      "format": "PDF",
+      "pages": 4,
+      "primaryCount": 7,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tp-hue/2025-05-17_CV-5878-UBND-CN_danh-muc-bai-toan-lon.pdf"
+    },
+    {
+      "id": "dong-thap",
+      "level": "Địa phương",
+      "authority": "Sở Khoa học và Công nghệ tỉnh Đồng Tháp",
+      "place": "Đồng Tháp",
+      "date": "2025-04-25",
+      "year": 2025,
+      "type": "Công văn",
+      "number": "604/SKHCN-TTCĐS",
+      "format": "PDF",
+      "pages": 4,
+      "primaryCount": 5,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tinh-dong-thap/2025-04-25_CV-604-SKHCN-TTCDS_danh-muc-bai-toan-lon.pdf"
+    },
+    {
+      "id": "da-nang",
+      "level": "Địa phương",
+      "authority": "Sở Khoa học và Công nghệ thành phố Đà Nẵng",
+      "place": "Đà Nẵng",
+      "date": "2025-05-22",
+      "year": 2025,
+      "type": "Công văn",
+      "number": "1235/SKHCN-CNTT",
+      "format": "PDF",
+      "pages": 17,
+      "primaryCount": 11,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tp-da-nang/2025-05-22_CV-1235-SKHCN-CNTT_danh-muc-bai-toan-lon-dot-1.pdf"
+    },
+    {
+      "id": "hai-phong",
+      "level": "Địa phương",
+      "authority": "Sở Khoa học và Công nghệ thành phố Hải Phòng",
+      "place": "Hải Phòng",
+      "date": "2025-07-16",
+      "year": 2025,
+      "type": "Công văn",
+      "number": "1998/SKHCN-CNTT",
+      "format": "PDF",
+      "pages": 11,
+      "primaryCount": 10,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tp-hai-phong/2025-07-16_CV-1998-SKHCN-CNTT_danh-muc-bai-toan-lon.pdf"
     }
   ],
   "problems": [
@@ -1738,6 +1798,336 @@ window.BIGMATH_DATA = {
       "field": "AI",
       "title": "Xây dựng hệ sinh thái AI tự chủ, ứng dụng AI và dữ liệu lớn phục vụ công tác chỉ đạo, điều hành, tác nghiệp trong cơ quan nhà nước của tỉnh đến năm 2030",
       "year": 2026
+    },
+    {
+      "id": "hue-01",
+      "ordinal": 1,
+      "source": "hue",
+      "authority": "Huế",
+      "unit": "UBND thành phố Huế",
+      "field": "Nhân lực số",
+      "title": "Giải quyết bài toán về nhân lực số chất lượng cao tại thành phố Huế",
+      "year": 2025
+    },
+    {
+      "id": "hue-02",
+      "ordinal": 2,
+      "source": "hue",
+      "authority": "Huế",
+      "unit": "UBND thành phố Huế",
+      "field": "Đổi mới sáng tạo",
+      "title": "Kết nối hiệu quả giữa nhà nước, nhà khoa học, doanh nghiệp và người dân thông qua nền tảng số để tăng cường phối hợp thúc đẩy thương mại hóa các sản phẩm khoa học và công nghệ",
+      "year": 2025
+    },
+    {
+      "id": "hue-03",
+      "ordinal": 3,
+      "source": "hue",
+      "authority": "Huế",
+      "unit": "UBND thành phố Huế",
+      "field": "Nông nghiệp",
+      "title": "Ứng dụng tiến bộ khoa học công nghệ, thông minh hóa, tự động hóa, ứng dụng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số để nâng cao giá trị của các sản phẩm nông nghiệp, phát triển mô hình nông nghiệp công nghệ cao trên địa bàn thành phố",
+      "year": 2025
+    },
+    {
+      "id": "hue-04",
+      "ordinal": 4,
+      "source": "hue",
+      "authority": "Huế",
+      "unit": "UBND thành phố Huế",
+      "field": "Dịch vụ công",
+      "title": "Giải pháp công nghệ trợ lý ảo, hỗ trợ người dân phục vụ công tác cải cách hành chính; nâng cao chất lượng, hiệu quả và mức độ hài lòng của người dân và doanh nghiệp khi sử dụng dịch vụ công trực tuyến từ đó tổng kết, khái quát hóa thành mô hình cung cấp dịch vụ công trực tuyến đảm bảo tính hiệu quả và tối ưu",
+      "year": 2025
+    },
+    {
+      "id": "hue-05",
+      "ordinal": 5,
+      "source": "hue",
+      "authority": "Huế",
+      "unit": "UBND thành phố Huế",
+      "field": "Chuyển đổi số",
+      "title": "Xây dựng mô hình hỗ trợ, tư vấn người dân, tổ chức, doanh nghiệp trên địa bàn thành phố trong lĩnh vực chuyển đổi số",
+      "year": 2025
+    },
+    {
+      "id": "hue-06",
+      "ordinal": 6,
+      "source": "hue",
+      "authority": "Huế",
+      "unit": "UBND thành phố Huế",
+      "field": "An toàn dữ liệu",
+      "title": "Phần mềm kiểm tra rò rỉ dữ liệu cá nhân",
+      "year": 2025
+    },
+    {
+      "id": "hue-07",
+      "ordinal": 7,
+      "source": "hue",
+      "authority": "Huế",
+      "unit": "UBND thành phố Huế",
+      "field": "Hợp tác xã số",
+      "title": "Ứng dụng khoa học công nghệ, đổi mới sáng tạo và chuyển đổi số để nâng cao giá trị của các sản phẩm nông nghiệp từ đó khái quát hóa thành mô hình hợp tác xã số trong nông nghiệp",
+      "year": 2025
+    },
+    {
+      "id": "dong-thap-01",
+      "ordinal": 1,
+      "source": "dong-thap",
+      "authority": "Đồng Tháp",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Giáo dục AI",
+      "title": "Ứng dụng trí tuệ nhân tạo trong hỗ trợ học tập và đánh giá học sinh",
+      "year": 2025
+    },
+    {
+      "id": "dong-thap-02",
+      "ordinal": 2,
+      "source": "dong-thap",
+      "authority": "Đồng Tháp",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Đô thị thông minh",
+      "title": "Ứng dụng trí tuệ nhân tạo vào phục vụ đô thị thông minh",
+      "year": 2025
+    },
+    {
+      "id": "dong-thap-03",
+      "ordinal": 3,
+      "source": "dong-thap",
+      "authority": "Đồng Tháp",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Trợ lý ảo",
+      "title": "Ứng dụng nền tảng trợ lý ảo phục vụ công chức, viên chức",
+      "year": 2025
+    },
+    {
+      "id": "dong-thap-04",
+      "ordinal": 4,
+      "source": "dong-thap",
+      "authority": "Đồng Tháp",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Dịch vụ công",
+      "title": "Xây dựng chatbot hỗ trợ trong giải quyết thủ tục hành chính cho người dân",
+      "year": 2025
+    },
+    {
+      "id": "dong-thap-05",
+      "ordinal": 5,
+      "source": "dong-thap",
+      "authority": "Đồng Tháp",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Nông nghiệp thông minh",
+      "title": "Ứng dụng AI và IoT trong tư vấn, giám sát quy trình sản xuất nông nghiệp",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-01",
+      "ordinal": 1,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Sở Xây dựng",
+      "field": "Dữ liệu xây dựng",
+      "title": "Số hóa và hình thành cơ sở dữ liệu cấp phép xây dựng toàn thành phố",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-02",
+      "ordinal": 2,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Sở Xây dựng",
+      "field": "AI hành chính",
+      "title": "Hệ thống trợ lý ảo hỗ trợ giải quyết thủ tục hành chính",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-03",
+      "ordinal": 3,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Sở Xây dựng",
+      "field": "AI ra quyết định",
+      "title": "Hệ thống AI hỗ trợ ra quyết định thông minh trong lĩnh vực Xây dựng",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-04",
+      "ordinal": 4,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Sở Xây dựng",
+      "field": "AI xây dựng",
+      "title": "Ứng dụng trí tuệ nhân tạo để hỗ trợ lập văn bản thẩm định báo cáo nghiên cứu khả thi đầu tư xây dựng, giấy phép xây dựng",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-05",
+      "ordinal": 5,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Sở Xây dựng",
+      "field": "Digital Twin",
+      "title": "Xây dựng bản sao số (Digital Twins) cho hạ tầng đô thị",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-06",
+      "ordinal": 6,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Sở Xây dựng",
+      "field": "Robot tự hành",
+      "title": "Thiết bị tự hành “tuần tra”, đánh giá hư hỏng hạ tầng kỹ thuật",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-07",
+      "ordinal": 7,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Sở Nội vụ",
+      "field": "Dịch vụ công",
+      "title": "Ứng dụng AI hỗ trợ người dân, doanh nghiệp thực hiện dịch vụ hành chính công tại Trung tâm phục vụ hành chính công cấp xã của thành phố Đà Nẵng",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-08",
+      "ordinal": 8,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Ban Quản lý Khu công nghệ cao và các khu công nghiệp Đà Nẵng",
+      "field": "IoT môi trường",
+      "title": "Triển khai hệ thống quản lý, giám sát môi trường thông minh tại Khu CNC",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-09",
+      "ordinal": 9,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Công viên khoa học",
+      "title": "Công viên Khoa học và Công nghệ Đà Nẵng",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-10",
+      "ordinal": 10,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "AI và RPA",
+      "title": "Ứng dụng trí tuệ nhân tạo và tự động hóa quy trình trong thực thi công vụ",
+      "year": 2025
+    },
+    {
+      "id": "da-nang-11",
+      "ordinal": 11,
+      "source": "da-nang",
+      "authority": "Đà Nẵng",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Blockchain",
+      "title": "Xây dựng mạng Blockchain",
+      "year": 2025
+    },
+    {
+      "id": "hai-phong-01",
+      "ordinal": 1,
+      "source": "hai-phong",
+      "authority": "Hải Phòng",
+      "unit": "Ngành Công Thương",
+      "field": "Năng lượng tái tạo",
+      "title": "Xây dựng đề án đưa Hải Phòng trở thành trung tâm công nghiệp và dịch vụ năng lượng tái tạo khu vực miền Bắc",
+      "year": 2025
+    },
+    {
+      "id": "hai-phong-02",
+      "ordinal": 2,
+      "source": "hai-phong",
+      "authority": "Hải Phòng",
+      "unit": "Các ngành Công Thương; Xây dựng; Nông nghiệp và Môi trường",
+      "field": "Chuyển đổi xanh",
+      "title": "Xây dựng đề án chuyển đổi xanh thành phố Hải Phòng nhằm giảm phát thải khí nhà kính và phát triển bền vững",
+      "year": 2025
+    },
+    {
+      "id": "hai-phong-03",
+      "ordinal": 3,
+      "source": "hai-phong",
+      "authority": "Hải Phòng",
+      "unit": "Ngành Nông nghiệp và Môi trường",
+      "field": "Môi trường số",
+      "title": "Ứng dụng công nghệ số trong quản lý tài nguyên, trật tự đô thị và phòng ngừa ô nhiễm môi trường",
+      "year": 2025
+    },
+    {
+      "id": "hai-phong-04",
+      "ordinal": 4,
+      "source": "hai-phong",
+      "authority": "Hải Phòng",
+      "unit": "Ngành Xây dựng",
+      "field": "Đô thị thông minh",
+      "title": "Chuyển đổi số trong quản lý đô thị thông minh",
+      "year": 2025
+    },
+    {
+      "id": "hai-phong-05",
+      "ordinal": 5,
+      "source": "hai-phong",
+      "authority": "Hải Phòng",
+      "unit": "Các ngành Xây dựng; Công Thương",
+      "field": "Cảng thông minh",
+      "title": "Ứng dụng công nghệ số vào quản lý và vận hành cảng biển để nâng cao hiệu quả hoạt động logistics và vận tải",
+      "year": 2025
+    },
+    {
+      "id": "hai-phong-06",
+      "ordinal": 6,
+      "source": "hai-phong",
+      "authority": "Hải Phòng",
+      "unit": "Ngành Khoa học và Công nghệ",
+      "field": "Dịch vụ công",
+      "title": "Xây dựng mô hình cung cấp dịch vụ, tiện ích trực tuyến cá thể hoá cho người dân",
+      "year": 2025
+    },
+    {
+      "id": "hai-phong-07",
+      "ordinal": 7,
+      "source": "hai-phong",
+      "authority": "Hải Phòng",
+      "unit": "Ngành Nội vụ",
+      "field": "Quản trị nhân sự",
+      "title": "Xây dựng hệ thống tự động đánh giá hiệu quả công việc của cơ quan, cán bộ công chức theo vị trí việc làm dựa trên dữ liệu",
+      "year": 2025
+    },
+    {
+      "id": "hai-phong-08",
+      "ordinal": 8,
+      "source": "hai-phong",
+      "authority": "Hải Phòng",
+      "unit": "Ngành Khoa học và Công nghệ",
+      "field": "Đổi mới sáng tạo",
+      "title": "Xây dựng trung tâm nghiên cứu khoa học và đổi mới sáng tạo cấp vùng nhằm thúc đẩy hệ sinh thái khởi nghiệp sáng tạo",
+      "year": 2025
+    },
+    {
+      "id": "hai-phong-09",
+      "ordinal": 9,
+      "source": "hai-phong",
+      "authority": "Hải Phòng",
+      "unit": "Ngành Ngoại vụ",
+      "field": "AI và Big Data",
+      "title": "Ứng dụng AI và Big Data hỗ trợ phân tích dữ liệu, góp phần hoạch định chính sách phát triển Hải Phòng trở thành thành phố quốc tế",
+      "year": 2025
+    },
+    {
+      "id": "hai-phong-10",
+      "ordinal": 10,
+      "source": "hai-phong",
+      "authority": "Hải Phòng",
+      "unit": "Ban Quản lý Khu kinh tế thành phố",
+      "field": "Khu thương mại tự do",
+      "title": "Hệ thống quản lý và vận hành thông minh Khu thương mại tự do Hải Phòng",
+      "year": 2025
     }
   ],
   "priorities": [

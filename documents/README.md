@@ -32,10 +32,19 @@ Trong đó:
 | 9 | Địa phương | TP. Hà Nội | 1193/QĐ-UBND | 18/03/2026 | DOC | 18 | 30 | — | `1193_QD-UBND_698932(1).doc` | [`2026-03-18_QD-1193-QD-UBND_danh-muc-bai-toan-lon-dot-1.doc`](dia-phuong/tp-ha-noi/2026-03-18_QD-1193-QD-UBND_danh-muc-bai-toan-lon-dot-1.doc) |
 | 10 | Địa phương | Tỉnh Đắk Lắk | 1269/QĐ-UBND | 22/04/2026 | DOC | 2 | 8 | — | `1269_QD-UBND_703446(1).doc` | [`2026-04-22_QD-1269-QD-UBND_danh-muc-bai-toan-lon.doc`](dia-phuong/tinh-dak-lak/2026-04-22_QD-1269-QD-UBND_danh-muc-bai-toan-lon.doc) |
 | 11 | Địa phương | Tỉnh Tây Ninh | 2592/KH-UBND | 10/06/2026 | DOC | 10 | 1² | — | `2592_KH-UBND_715400(1).doc` | [`2026-06-10_KH-2592-KH-UBND_trien-khai-he-sinh-thai-ai-tu-chu.doc`](dia-phuong/tinh-tay-ninh/2026-06-10_KH-2592-KH-UBND_trien-khai-he-sinh-thai-ai-tu-chu.doc) |
+| 12 | Địa phương | TP. Huế | 5878/UBND-CN | 17/05/2025 | PDF | 4 | 7³ | — | `00.00.H57_5878_UBND_CN_2025_PL1_signed.pdf_29_5_2025_16_16_38_483_CH.pdf` | [`2025-05-17_CV-5878-UBND-CN_danh-muc-bai-toan-lon.pdf`](dia-phuong/tp-hue/2025-05-17_CV-5878-UBND-CN_danh-muc-bai-toan-lon.pdf) |
+| 13 | Địa phương | Tỉnh Đồng Tháp | 604/SKHCN-TTCĐS | 25/04/2025 | PDF | 4 | 5 | — | `604_SKHCN-TTCDS_25042025-signed_02.pdf` | [`2025-04-25_CV-604-SKHCN-TTCDS_danh-muc-bai-toan-lon.pdf`](dia-phuong/tinh-dong-thap/2025-04-25_CV-604-SKHCN-TTCDS_danh-muc-bai-toan-lon.pdf) |
+| 14 | Địa phương | TP. Đà Nẵng | 1235/SKHCN-CNTT | 22/05/2025 | PDF | 17 | 11⁴ | — | `1235.SKHCN.CNTT.signed.signed.signed.pdf` | [`2025-05-22_CV-1235-SKHCN-CNTT_danh-muc-bai-toan-lon-dot-1.pdf`](dia-phuong/tp-da-nang/2025-05-22_CV-1235-SKHCN-CNTT_danh-muc-bai-toan-lon-dot-1.pdf) |
+| 15 | Địa phương | TP. Hải Phòng | 1998/SKHCN-CNTT | 16/07/2025 | PDF | 11 | 10 | — | `danh-muc-cac-bai-toan-lon-cua-thanh-pho-theo-nghi-quyet-so-57-cua-bo-chinh-tri638895784075073201.pdf` | [`2025-07-16_CV-1998-SKHCN-CNTT_danh-muc-bai-toan-lon.pdf`](dia-phuong/tp-hai-phong/2025-07-16_CV-1998-SKHCN-CNTT_danh-muc-bai-toan-lon.pdf) |
+| **Tổng** |  | **15 nguồn** |  |  | **11 PDF + 4 DOC** | **161** | **190** | **8** |  |  |
 
 ¹ Với DOC, số trang được xác minh bằng bản dựng PDF tạm thời; tệp lưu trữ vẫn là DOC gốc.
 
 ² Kế hoạch Tây Ninh triển khai một bài toán lớn được nêu trực tiếp trong tiêu đề văn bản.
+
+³ Tệp Huế là phụ lục 4 trang ban hành kèm Công văn 5878/UBND-CN; kho giữ nguyên bản phụ lục được cung cấp.
+
+⁴ Công văn 1235/SKHCN-CNTT của Đà Nẵng trình danh mục 11 bài toán đề xuất đợt 1; trạng thái này được giữ rõ trong tên tệp và mô tả dữ liệu.
 
 ## Nguyên tắc cập nhật
 
