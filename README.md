@@ -4,8 +4,8 @@
 
 **Kho dữ liệu mở để lưu trữ, thống kê và tra cứu các bài toán lớn về khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số.**
 
-[![Dữ liệu](https://img.shields.io/badge/dữ_liệu-190_bài_toán-0A66C2?style=for-the-badge)](#-phạm-vi-dữ-liệu)
-[![Văn bản](https://img.shields.io/badge/nguồn-15_văn_bản-20B8CD?style=for-the-badge)](#-kho-văn-bản)
+[![Dữ liệu](https://img.shields.io/badge/dữ_liệu-223_bài_toán-0A66C2?style=for-the-badge)](#-phạm-vi-dữ-liệu)
+[![Văn bản](https://img.shields.io/badge/nguồn-18_văn_bản-20B8CD?style=for-the-badge)](#-kho-văn-bản)
 [![Thời gian](https://img.shields.io/badge/giai_đoạn-2025–2026-F0B44D?style=for-the-badge)](#-phạm-vi-dữ-liệu)
 [![Website](https://img.shields.io/badge/website-GitHub_Pages-071A2F?style=for-the-badge&logo=github)](https://base27-cvnss.github.io/bigmath/)
 [![Kiểm định](https://github.com/Base27-CVNSS/bigmath/actions/workflows/validate.yml/badge.svg)](https://github.com/Base27-CVNSS/bigmath/actions/workflows/validate.yml)
@@ -30,8 +30,8 @@ Tên “BigMath” ở đây mang nghĩa **Big Problems** — các bài toán ph
 
 - 🔎 Tìm kiếm tiếng Việt không phụ thuộc dấu theo tên, đơn vị, lĩnh vực và địa phương.
 - 🧭 Lọc đồng thời theo nguồn văn bản, năm ban hành và lĩnh vực.
-- 📊 Thống kê phân bố giữa 2 Bộ và 13 tỉnh, thành phố.
-- 🧾 Tổng hợp 161 trang kiểm tra và hiển thị ngày cập nhật dữ liệu ngay trên dashboard.
+- 📊 Thống kê phân bố giữa 2 Bộ và 16 tỉnh, thành phố.
+- 🧾 Tổng hợp 191 trang kiểm tra và hiển thị ngày cập nhật dữ liệu ngay trên dashboard.
 - 🗂️ Liên kết trực tiếp từng dòng dữ liệu với văn bản PDF/DOC tương ứng.
 - 🔐 Công bố SHA-256, dung lượng và tên gốc trong manifest để kiểm tra tính toàn vẹn.
 - ⭐ Tách riêng 8 bài toán ưu tiên của An Giang để tránh cộng trùng.
@@ -58,9 +58,12 @@ Tên “BigMath” ở đây mang nghĩa **Big Problems** — các bài toán ph
 | 🌾 Địa phương | Tỉnh Đồng Tháp | 604/SKHCN-TTCĐS | 5 | — |
 | 🌉 Địa phương | Thành phố Đà Nẵng | 1235/SKHCN-CNTT | 11 | — |
 | ⚓ Địa phương | Thành phố Hải Phòng | 1998/SKHCN-CNTT | 10 | — |
-| **Tổng** | **15 nguồn** | **11 PDF + 4 DOC** | **190** | **8** |
+| 🦐 Địa phương | Tỉnh Cà Mau | 4233/UBND-KGVX | 4 | — |
+| 🏞️ Địa phương | Tỉnh Thanh Hóa | 685/SKHCN-CNTT&CĐS | 20 | — |
+| 🏭 Địa phương | Tỉnh Đồng Nai | 7466/UBND-KGVX | 9 | — |
+| **Tổng** | **18 nguồn** | **14 PDF + 4 DOC** | **223** | **8** |
 
-Tổng **190** gồm các dòng thuộc danh mục chính và một bài toán được nêu trực tiếp trong tiêu đề Kế hoạch 2592/KH-UBND của Tây Ninh. Công văn 1235/SKHCN-CNTT của Đà Nẵng được ghi rõ là danh mục đề xuất đợt 1. Tám mục ở Phụ lục 2 của An Giang được hiển thị trong khu vực “ưu tiên đặt hàng” nhưng không cộng thêm vào tổng chính. Hai tệp Vĩnh Phúc do người dùng cung cấp có SHA-256 giống nhau nên kho chỉ giữ một bản.
+Tổng **223** gồm các dòng thuộc danh mục chính và một bài toán được nêu trực tiếp trong tiêu đề Kế hoạch 2592/KH-UBND của Tây Ninh. Công văn 1235/SKHCN-CNTT của Đà Nẵng được ghi rõ là danh mục đề xuất đợt 1. Danh mục Thanh Hóa giữ đủ 20 dòng theo số thứ tự trong nguồn, kể cả các tiêu đề lặp lại. Tám mục ở Phụ lục 2 của An Giang được hiển thị trong khu vực “ưu tiên đặt hàng” nhưng không cộng thêm vào tổng chính. Hai tệp Vĩnh Phúc do người dùng cung cấp có SHA-256 giống nhau nên kho chỉ giữ một bản.
 
 ## 🧠 Bản chất dữ liệu
 
@@ -85,9 +88,12 @@ documents/
 │   └── bo-nong-nghiep-va-moi-truong/
 └── dia-phuong/
     ├── tinh-an-giang/
+    ├── tinh-ca-mau/
     ├── tinh-dak-lak/
+    ├── tinh-dong-nai/
     ├── tinh-dong-thap/
     ├── tinh-tay-ninh/
+    ├── tinh-thanh-hoa/
     ├── tinh-vinh-phuc/
     ├── tinh-vinh-long/
     ├── tinh-yen-bai/
@@ -118,7 +124,7 @@ Xem [bảng kiểm kê và ánh xạ tên tệp](documents/README.md) để bi�
 | Tài nguyên | Định dạng | Mục đích |
 |---|---|---|
 | [Dashboard](https://base27-cvnss.github.io/bigmath/) | HTML | Tra cứu, lọc, thống kê và xuất CSV |
-| [`assets/data.js`](assets/data.js) | JavaScript | 190 bản ghi chính, 8 mục ưu tiên và metadata 15 văn bản |
+| [`assets/data.js`](assets/data.js) | JavaScript | 223 bản ghi chính, 8 mục ưu tiên và metadata 18 văn bản |
 | [`documents/manifest.json`](documents/manifest.json) | JSON | Ánh xạ tên gốc - tên chuẩn, dung lượng và SHA-256 |
 | [`documents/README.md`](documents/README.md) | Markdown | Bảng kiểm kê dễ đọc và nguyên tắc lưu trữ |
 
@@ -159,7 +165,7 @@ bigmath/
 ├── index.html              # Giao diện dashboard
 ├── assets/
 │   ├── app.js              # Tìm kiếm, lọc, biểu đồ và xuất CSV
-│   ├── data.js             # 190 bản ghi chính + 8 mục ưu tiên
+│   ├── data.js             # 223 bản ghi chính + 8 mục ưu tiên
 │   ├── favicon.svg         # Biểu tượng website
 │   └── styles.css          # Hệ thống thiết kế responsive
 ├── documents/              # Kho PDF/DOC + manifest kiểm tra toàn vẹn

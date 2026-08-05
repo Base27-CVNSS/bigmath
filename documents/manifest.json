@@ -3,9 +3,9 @@
   "updated": "2026-08-05",
   "namingConvention": "YYYY-MM-DD_LOAI-SO-COQUAN_noi-dung-ngan-gon.{pdf|doc}",
   "summary": {
-    "documents": 15,
-    "pages": 161,
-    "primaryProblems": 190,
+    "documents": 18,
+    "pages": 191,
+    "primaryProblems": 223,
     "priorityProblems": 8
   },
   "documents": [
@@ -233,6 +233,51 @@
       "path": "documents/dia-phuong/tp-hai-phong/2025-07-16_CV-1998-SKHCN-CNTT_danh-muc-bai-toan-lon.pdf",
       "sizeBytes": 3033021,
       "sha256": "363dd91208a2c650c0f788bf71509e2a4305852e0c707dcf978ff8c3951714c9"
+    },
+    {
+      "id": "ca-mau",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân tỉnh Cà Mau",
+      "number": "4233/UBND-KGVX",
+      "date": "2025-05-26",
+      "format": "PDF",
+      "pages": 2,
+      "primaryCount": 4,
+      "priorityCount": 0,
+      "originalName": "451 DANH MỤC CÁC BÀI TOÁN LỚN pdf.pdf",
+      "path": "documents/dia-phuong/tinh-ca-mau/2025-05-26_CV-4233-UBND-KGVX_danh-muc-bai-toan-lon.pdf",
+      "sizeBytes": 383397,
+      "sha256": "3e78c126dd64dc91db44a838930c0e7838aeb24d9af0763bc821ef12eef66313"
+    },
+    {
+      "id": "thanh-hoa",
+      "level": "Địa phương",
+      "authority": "Sở Khoa học và Công nghệ tỉnh Thanh Hóa",
+      "number": "685/SKHCN-CNTT&CĐS",
+      "date": "2025-04-16",
+      "format": "PDF",
+      "pages": 26,
+      "primaryCount": 20,
+      "priorityCount": 0,
+      "originalName": "Thanh Hoa.pdf",
+      "path": "documents/dia-phuong/tinh-thanh-hoa/2025-04-16_CV-685-SKHCN-CNTT-CDS_danh-muc-bai-toan-lon.pdf",
+      "sizeBytes": 993765,
+      "sha256": "d5e97a37b5586cac1aa3b15b513e1ca8d1c43c1ad2f392787d847eae10b5b6ca"
+    },
+    {
+      "id": "dong-nai",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "number": "7466/UBND-KGVX",
+      "date": "2025-06-11",
+      "format": "PDF",
+      "pages": 2,
+      "primaryCount": 9,
+      "priorityCount": 0,
+      "originalName": "document-25.pdf",
+      "path": "documents/dia-phuong/tinh-dong-nai/2025-06-11_CV-7466-UBND-KGVX_danh-muc-bai-toan-lon.pdf",
+      "sizeBytes": 1040366,
+      "sha256": "957d538ac0df678b0782778503bf2751eef360f8a4f1475511b3cd26deb55059"
     }
   ]
 }

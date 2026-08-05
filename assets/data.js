@@ -1,6 +1,6 @@
 window.BIGMATH_DATA = {
   "updated": "2026-08-05",
-  "methodology": "Tổng số bài toán chính được tính theo danh mục chính của từng văn bản. Riêng Kế hoạch 2592/KH-UBND của Tây Ninh được tính một lần theo bài toán lớn nêu trực tiếp trong tiêu đề; Công văn 1235/SKHCN-CNTT của Đà Nẵng được ghi nhận là danh mục đề xuất đợt 1. 8 mục ưu tiên tại Phụ lục 2 của An Giang được thống kê riêng để tránh cộng trùng. Hai tệp nguồn Vĩnh Phúc giống hệt nhau được lưu một bản duy nhất.",
+  "methodology": "Tổng số bài toán chính được tính theo danh mục chính của từng văn bản. Riêng Kế hoạch 2592/KH-UBND của Tây Ninh được tính một lần theo bài toán lớn nêu trực tiếp trong tiêu đề; Công văn 1235/SKHCN-CNTT của Đà Nẵng được ghi nhận là danh mục đề xuất đợt 1. 8 mục ưu tiên tại Phụ lục 2 của An Giang được thống kê riêng để tránh cộng trùng. Danh mục Thanh Hóa được giữ đủ 20 dòng theo số thứ tự của nguồn, kể cả các tiêu đề lặp lại giữa các dòng. Hai tệp nguồn Vĩnh Phúc giống hệt nhau được lưu một bản duy nhất.",
   "documents": [
     {
       "id": "bo-khcn",
@@ -226,6 +226,51 @@ window.BIGMATH_DATA = {
       "primaryCount": 10,
       "priorityCount": 0,
       "path": "documents/dia-phuong/tp-hai-phong/2025-07-16_CV-1998-SKHCN-CNTT_danh-muc-bai-toan-lon.pdf"
+    },
+    {
+      "id": "ca-mau",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân tỉnh Cà Mau",
+      "place": "Cà Mau",
+      "date": "2025-05-26",
+      "year": 2025,
+      "type": "Công văn",
+      "number": "4233/UBND-KGVX",
+      "format": "PDF",
+      "pages": 2,
+      "primaryCount": 4,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tinh-ca-mau/2025-05-26_CV-4233-UBND-KGVX_danh-muc-bai-toan-lon.pdf"
+    },
+    {
+      "id": "thanh-hoa",
+      "level": "Địa phương",
+      "authority": "Sở Khoa học và Công nghệ tỉnh Thanh Hóa",
+      "place": "Thanh Hóa",
+      "date": "2025-04-16",
+      "year": 2025,
+      "type": "Công văn",
+      "number": "685/SKHCN-CNTT&CĐS",
+      "format": "PDF",
+      "pages": 26,
+      "primaryCount": 20,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tinh-thanh-hoa/2025-04-16_CV-685-SKHCN-CNTT-CDS_danh-muc-bai-toan-lon.pdf"
+    },
+    {
+      "id": "dong-nai",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "place": "Đồng Nai",
+      "date": "2025-06-11",
+      "year": 2025,
+      "type": "Công văn",
+      "number": "7466/UBND-KGVX",
+      "format": "PDF",
+      "pages": 2,
+      "primaryCount": 9,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tinh-dong-nai/2025-06-11_CV-7466-UBND-KGVX_danh-muc-bai-toan-lon.pdf"
     }
   ],
   "problems": [
@@ -2127,6 +2172,336 @@ window.BIGMATH_DATA = {
       "unit": "Ban Quản lý Khu kinh tế thành phố",
       "field": "Khu thương mại tự do",
       "title": "Hệ thống quản lý và vận hành thông minh Khu thương mại tự do Hải Phòng",
+      "year": 2025
+    },
+    {
+      "id": "ca-mau-01",
+      "ordinal": 1,
+      "source": "ca-mau",
+      "authority": "Cà Mau",
+      "unit": "Ủy ban nhân dân tỉnh Cà Mau",
+      "field": "Thủy sản thông minh",
+      "title": "Ứng dụng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số để phát triển và nâng cao hiệu quả nuôi trồng thủy sản của tỉnh Cà Mau",
+      "year": 2025
+    },
+    {
+      "id": "ca-mau-02",
+      "ordinal": 2,
+      "source": "ca-mau",
+      "authority": "Cà Mau",
+      "unit": "Ủy ban nhân dân tỉnh Cà Mau",
+      "field": "Kinh tế biển",
+      "title": "Ứng dụng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số để phát triển và nâng cao hiệu quả kinh tế biển (kết hợp với năng lượng tái tạo và du lịch)",
+      "year": 2025
+    },
+    {
+      "id": "ca-mau-03",
+      "ordinal": 3,
+      "source": "ca-mau",
+      "authority": "Cà Mau",
+      "unit": "Ủy ban nhân dân tỉnh Cà Mau",
+      "field": "Cảnh báo thiên tai",
+      "title": "Giải pháp phòng, chống các tai biến địa chất, sự cố môi trường, xâm nhập mặn, nước biển dâng, cung cấp cảnh báo sớm về thiên tai trong tỉnh Cà Mau",
+      "year": 2025
+    },
+    {
+      "id": "ca-mau-04",
+      "ordinal": 4,
+      "source": "ca-mau",
+      "authority": "Cà Mau",
+      "unit": "Ủy ban nhân dân tỉnh Cà Mau",
+      "field": "Dữ liệu số",
+      "title": "Số hóa, tạo lập, khai thác có hiệu quả cơ sở dữ liệu nền các ngành, lĩnh vực tỉnh Cà Mau",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-01",
+      "ordinal": 1,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "Sở Giáo dục và Đào tạo",
+      "field": "Quản lý giáo dục",
+      "title": "Phần mềm quản lý nhà trường",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-02",
+      "ordinal": 2,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "Sở Giáo dục và Đào tạo",
+      "field": "Tuyển sinh số",
+      "title": "Phần mềm quản lý công tác tuyển sinh đầu cấp",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-03",
+      "ordinal": 3,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "Sở Giáo dục và Đào tạo",
+      "field": "Thư viện số",
+      "title": "Phần mềm thư viện điện tử",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-04",
+      "ordinal": 4,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "Sở Giáo dục và Đào tạo",
+      "field": "Giáo dục số",
+      "title": "Phần mềm phổ cập giáo dục - xóa mù chữ",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-05",
+      "ordinal": 5,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Kinh tế số",
+      "title": "Xây dựng mô hình thống kê, dự báo kinh tế, kinh tế số tỉnh Thanh Hóa",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-06",
+      "ordinal": 6,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "Sở Nông nghiệp và Môi trường",
+      "field": "Dữ liệu nông nghiệp",
+      "title": "Xây dựng, nâng cấp, tích hợp hoàn thiện hệ thống thông tin và Cơ sở dữ liệu quản lý Nông nghiệp và Môi trường tỉnh Thanh Hóa, kết nối liên thông với các Hệ thống thông tin, cơ sở dữ liệu Quốc gia, các Sở, Ngành trong tỉnh (Giai đoạn 1)",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-07",
+      "ordinal": 7,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "Sở Nông nghiệp và Môi trường",
+      "field": "Hạ tầng số",
+      "title": "Nâng cấp, cải tạo hạ tầng công nghệ thông tin Sở Nông nghiệp và Môi trường Thanh Hóa",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-08",
+      "ordinal": 8,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "Sở Văn hóa, Thể thao và Du lịch",
+      "field": "Văn hóa và du lịch số",
+      "title": "Ứng dụng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số trong quản lý các lĩnh vực của ngành Văn hóa, Thể thao và Du lịch và phục vụ phát triển kinh tế xã hội trên địa bàn tỉnh Thanh Hóa",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-09",
+      "ordinal": 9,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND thành phố Thanh Hóa",
+      "field": "Công dân số",
+      "title": "Trong bối cảnh chuyển đổi số mạnh mẽ hiện nay, việc kết nối hiệu quả giữa chính quyền và người dân đóng vai trò then chốt trong xây dựng nền hành chính hiện đại, minh bạch và phục vụ. Bài toán kết nối hiệu quả giữa chính quyền và người dân thông qua ứng dụng trên điện thoại di động thông minh, từ đó tổng kết thành mô hình công dân số thông qua ứng dụng công dân số",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-10",
+      "ordinal": 10,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND thị xã Bỉm Sơn",
+      "field": "Dịch vụ công",
+      "title": "Nâng cao chất lượng, hiệu quả và mức độ hài lòng của người dân, tổ chức, doanh nghiệp khi sử dụng dịch vụ công trực tuyến và nâng cao tỷ lệ dịch vụ công trực tuyến toàn trình (thanh toán không dùng tiền mặt)",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-11",
+      "ordinal": 11,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND thị xã Bỉm Sơn",
+      "field": "Thương mại điện tử",
+      "title": "Bài toán về mô hình gian hàng Bỉm Sơn trên sàn thương mại điện tử",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-12",
+      "ordinal": 12,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND huyện Quan Sơn",
+      "field": "Chính quyền số",
+      "title": "Chuyển đổi số trong quản lý hành chính",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-13",
+      "ordinal": 13,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND huyện Quan Sơn",
+      "field": "Kỹ năng số",
+      "title": "Phát triển hạ tầng số và nâng cao kỹ năng số cho người dân",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-14",
+      "ordinal": 14,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND huyện Quan Sơn",
+      "field": "Nông nghiệp thông minh",
+      "title": "Chuyển đổi số trong sản xuất nông nghiệp - lâm nghiệp",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-15",
+      "ordinal": 15,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND huyện Ngọc Lặc",
+      "field": "Chính quyền số",
+      "title": "Chuyển đổi số trong quản lý hành chính",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-16",
+      "ordinal": 16,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND huyện Quan Hóa",
+      "field": "Dịch vụ công",
+      "title": "Nâng cao chất lượng, hiệu quả và mức độ hài lòng của người dân, tổ chức, doanh nghiệp khi sử dụng dịch vụ công trực tuyến và nâng cao tỷ lệ dịch vụ công trực tuyến toàn trình (thanh toán không dùng tiền mặt)",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-17",
+      "ordinal": 17,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND huyện Quan Hóa",
+      "field": "Thương mại điện tử",
+      "title": "Bài toán về mô hình gian hàng trên sàn thương mại điện tử",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-18",
+      "ordinal": 18,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND huyện Quan Sơn",
+      "field": "Chính quyền số",
+      "title": "Chuyển đổi số trong quản lý hành chính",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-19",
+      "ordinal": 19,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND huyện Quan Sơn",
+      "field": "Kỹ năng số",
+      "title": "Phát triển hạ tầng số và nâng cao kỹ năng số cho người dân",
+      "year": 2025
+    },
+    {
+      "id": "thanh-hoa-20",
+      "ordinal": 20,
+      "source": "thanh-hoa",
+      "authority": "Thanh Hóa",
+      "unit": "UBND huyện Quan Sơn",
+      "field": "Nông nghiệp thông minh",
+      "title": "Chuyển đổi số trong sản xuất nông nghiệp - lâm nghiệp",
+      "year": 2025
+    },
+    {
+      "id": "dong-nai-01",
+      "ordinal": 1,
+      "source": "dong-nai",
+      "authority": "Đồng Nai",
+      "unit": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "field": "Viễn thám",
+      "title": "Sử dụng ảnh vệ tinh độ phân giải cao để quản lý, giám sát tình hình sử dụng đất trên địa bàn tỉnh",
+      "year": 2025
+    },
+    {
+      "id": "dong-nai-02",
+      "ordinal": 2,
+      "source": "dong-nai",
+      "authority": "Đồng Nai",
+      "unit": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "field": "AI chuyên ngành",
+      "title": "Xây dựng Loca AI hoặc Narrow AI cho các ngành: Khoa học và công nghệ; nông nghiệp và môi trường; y tế; xây dựng và quản lý đô thị trên địa bàn tỉnh Đồng Nai",
+      "year": 2025
+    },
+    {
+      "id": "dong-nai-03",
+      "ordinal": 3,
+      "source": "dong-nai",
+      "authority": "Đồng Nai",
+      "unit": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "field": "Đô thị và logistics",
+      "title": "Phát triển nền tảng dự báo phát triển đô thị, kết nối logistics thông minh tại khu vực Long Thành, Nhơn Trạch",
+      "year": 2025
+    },
+    {
+      "id": "dong-nai-04",
+      "ordinal": 4,
+      "source": "dong-nai",
+      "authority": "Đồng Nai",
+      "unit": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "field": "Bản đồ công nghệ",
+      "title": "Xây dựng bản đồ công nghệ đối với 05 ngành công nghiệp trọng yếu (Công nghiệp chế tạo; Công nghiệp hỗ trợ; Công nghiệp năng lượng; Công nghiệp logistics và dịch vụ hỗ trợ công nghiệp; Công nghiệp chế biến bảo quản nông sản và thực phẩm sau thu hoạch)",
+      "year": 2025
+    },
+    {
+      "id": "dong-nai-05",
+      "ordinal": 5,
+      "source": "dong-nai",
+      "authority": "Đồng Nai",
+      "unit": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "field": "Khu công nghiệp thông minh",
+      "title": "Ứng dụng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số để chuyển đổi các khu công nghiệp (KCN) truyền thống sang KCN thông minh, KCN sinh thái, và KCN tích hợp các dịch vụ công nghệ - đổi mới sáng tạo - Logistics xanh trên địa bàn tỉnh",
+      "year": 2025
+    },
+    {
+      "id": "dong-nai-06",
+      "ordinal": 6,
+      "source": "dong-nai",
+      "authority": "Đồng Nai",
+      "unit": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "field": "Digital Twin",
+      "title": "Ứng dụng công nghệ bản sao số cho một số đô thị trên địa bàn tỉnh để quản lý, phát triển",
+      "year": 2025
+    },
+    {
+      "id": "dong-nai-07",
+      "ordinal": 7,
+      "source": "dong-nai",
+      "authority": "Đồng Nai",
+      "unit": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "field": "Công nghệ lượng tử",
+      "title": "Ứng dụng công nghệ lượng tử: Máy tính lượng tử để xử lý thông tin, các bài toán phức tạp với tốc độ nhanh; Mật mã lượng tử để mã hóa và truyền thông an toàn, chống lại các phương pháp tấn công hiện nay; Cảm biến lượng tử để đo lường với độ chính xác cao; Mô phỏng lượng tử để mô phỏng các hiện tượng vật lý phức tạp",
+      "year": 2025
+    },
+    {
+      "id": "dong-nai-08",
+      "ordinal": 8,
+      "source": "dong-nai",
+      "authority": "Đồng Nai",
+      "unit": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "field": "Đô thị an toàn",
+      "title": "Ứng dụng công nghệ số trong việc xây dựng không gian sống an toàn tiện lợi và phúc lợi cho người dân trên địa tỉnh qua 03 lĩnh vực cơ bản",
+      "year": 2025
+    },
+    {
+      "id": "dong-nai-09",
+      "ordinal": 9,
+      "source": "dong-nai",
+      "authority": "Đồng Nai",
+      "unit": "Ủy ban nhân dân tỉnh Đồng Nai",
+      "field": "Mạng lưới chuyên gia",
+      "title": "Xây dựng và Vận hành hiệu quả Mạng lưới chuyên gia, nhà khoa học: Động lực cho Phát triển Kinh tế - Xã hội tỉnh Đồng Nai trong tình hình mới",
       "year": 2025
     }
   ],
