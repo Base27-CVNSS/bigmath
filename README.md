@@ -8,6 +8,7 @@
 [![Văn bản](https://img.shields.io/badge/nguồn-5_văn_bản-20B8CD?style=for-the-badge)](#-kho-văn-bản)
 [![Thời gian](https://img.shields.io/badge/giai_đoạn-2025–2026-F0B44D?style=for-the-badge)](#-phạm-vi-dữ-liệu)
 [![Website](https://img.shields.io/badge/website-GitHub_Pages-071A2F?style=for-the-badge&logo=github)](https://base27-cvnss.github.io/bigmath/)
+[![Kiểm định](https://github.com/Base27-CVNSS/bigmath/actions/workflows/validate.yml/badge.svg)](https://github.com/Base27-CVNSS/bigmath/actions/workflows/validate.yml)
 [![License](https://img.shields.io/badge/code-MIT-2E8B57?style=for-the-badge)](LICENSE)
 
 [🌐 Mở dashboard](https://base27-cvnss.github.io/bigmath/) · [📄 Xem kho PDF](documents/) · [🧭 Phương pháp dữ liệu](#-phương-pháp-thống-kê)
@@ -30,7 +31,9 @@ Tên “BigMath” ở đây mang nghĩa **Big Problems** — các bài toán ph
 - 🔎 Tìm kiếm tiếng Việt không phụ thuộc dấu theo tên, đơn vị, lĩnh vực và địa phương.
 - 🧭 Lọc đồng thời theo nguồn văn bản, năm ban hành và lĩnh vực.
 - 📊 Thống kê phân bố giữa Bộ Khoa học và Công nghệ và bốn địa phương.
+- 🧾 Tổng hợp 70 trang PDF và hiển thị ngày cập nhật dữ liệu ngay trên dashboard.
 - 🗂️ Liên kết trực tiếp từng dòng dữ liệu với văn bản PDF tương ứng.
+- 🔐 Công bố SHA-256, dung lượng và tên gốc trong manifest để kiểm tra tính toàn vẹn.
 - ⭐ Tách riêng 8 bài toán ưu tiên của An Giang để tránh cộng trùng.
 - ⇩ Xuất danh sách sau khi lọc thành CSV UTF-8, mở tốt trong Excel.
 - 📱 Giao diện responsive, hỗ trợ bàn phím và chế độ giảm chuyển động.
@@ -88,7 +91,16 @@ Ví dụ:
 2026-04-06_QD-1424-QD-UBND_danh-muc-bai-toan-lon-dot-1.pdf
 ```
 
-Xem [bảng kiểm kê và ánh xạ tên tệp](documents/README.md) để biết tên gốc, tên mới, số trang và phạm vi từng văn bản.
+Xem [bảng kiểm kê và ánh xạ tên tệp](documents/README.md) để biết tên gốc, tên mới, số trang và phạm vi từng văn bản. Tệp [`documents/manifest.json`](documents/manifest.json) cung cấp metadata máy đọc được cùng mã SHA-256 của từng PDF.
+
+## 📦 Truy cập dữ liệu
+
+| Tài nguyên | Định dạng | Mục đích |
+|---|---|---|
+| [Dashboard](https://base27-cvnss.github.io/bigmath/) | HTML | Tra cứu, lọc, thống kê và xuất CSV |
+| [`assets/data.js`](assets/data.js) | JavaScript | 76 bản ghi chính, 8 mục ưu tiên và metadata 5 văn bản |
+| [`documents/manifest.json`](documents/manifest.json) | JSON | Ánh xạ tên gốc - tên chuẩn, dung lượng và SHA-256 |
+| [`documents/README.md`](documents/README.md) | Markdown | Bảng kiểm kê dễ đọc và nguyên tắc lưu trữ |
 
 ## 🚀 Chạy cục bộ
 
@@ -128,8 +140,11 @@ bigmath/
 ├── assets/
 │   ├── app.js              # Tìm kiếm, lọc, biểu đồ và xuất CSV
 │   ├── data.js             # 76 bản ghi chính + 8 mục ưu tiên
+│   ├── favicon.svg         # Biểu tượng website
 │   └── styles.css          # Hệ thống thiết kế responsive
-├── documents/              # Kho PDF đã chuẩn hóa tên
+├── documents/              # Kho PDF + manifest kiểm tra toàn vẹn
+├── scripts/validate.mjs    # Kiểm định metadata, liên kết và checksum
+├── .github/workflows/      # Kiểm định tự động khi cập nhật
 ├── .nojekyll               # Phục vụ GitHub Pages trực tiếp
 ├── LICENSE                 # MIT cho phần mã nguồn
 └── README.md
@@ -144,6 +159,13 @@ Khi thêm một Bộ, ngành hoặc địa phương:
 3. Thêm metadata văn bản và các dòng danh mục vào `assets/data.js`.
 4. Kiểm tra tổng số, liên kết PDF, bộ lọc và CSV.
 5. Ghi rõ cách xử lý nếu văn bản có danh mục phụ, danh mục ưu tiên hoặc dòng trùng.
+6. Chạy kiểm định trước khi gửi thay đổi:
+
+```bash
+node scripts/validate.mjs
+```
+
+Trình kiểm định đối chiếu tổng số bản ghi, số thứ tự theo từng nguồn, đường dẫn, cấu trúc thư mục, dung lượng và SHA-256 của toàn bộ PDF.
 
 ## ⚖️ Bản quyền và nguồn
 
