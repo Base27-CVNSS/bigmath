@@ -1,0 +1,22 @@
+name: Kiểm định BigMath
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+      - name: Thiết lập Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Kiểm định dữ liệu và kho PDF
+        run: node scripts/validate.mjs
