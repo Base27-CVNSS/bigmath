@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>BigMath</title>
+  <defs>
+    <linearGradient id="g" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a66c2"/>
+      <stop offset="1" stop-color="#20b8cd"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#071a2f"/>
+  <path d="M18 14h31v8H31l12 10-12 10h18v8H18V40l12-8-12-8V14Z" fill="url(#g)"/>
+</svg>

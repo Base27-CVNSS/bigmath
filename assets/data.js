@@ -1,5 +1,5 @@
 window.BIGMATH_DATA = {
-  "updated": "2026-08-03",
+  "updated": "2026-08-05",
   "methodology": "Tổng số bài toán chính được tính theo danh mục chính của từng văn bản. 8 mục ưu tiên tại Phụ lục 2 của An Giang được thống kê riêng để tránh cộng trùng.",
   "documents": [
     {

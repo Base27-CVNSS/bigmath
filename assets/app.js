@@ -31,16 +31,26 @@
     const total = data.problems.length;
     const priority = data.priorities.length;
     const docs = data.documents.length;
+    const pages = data.documents.reduce((sum, doc) => sum + doc.pages, 0);
+    const years = [...new Set(data.documents.map((doc) => doc.year))].sort();
     const local = data.problems.filter((item) => item.source !== 'bo-khcn').length;
     const national = total - local;
 
     ['#heroTotal', '#statProblems'].forEach((id) => { $(id).textContent = total; });
     ['#heroPriority', '#statPriorities'].forEach((id) => { $(id).textContent = priority; });
     ['#heroDocs', '#statDocuments'].forEach((id) => { $(id).textContent = docs; });
+    $('#heroYears').textContent = String(years.length).padStart(2, '0');
     $('#statAuthorities').textContent = docs;
+    $('#statPages').textContent = pages;
+    $('#statRange').textContent = `${years[0]}–${String(years.at(-1)).slice(-2)}`;
+    $('#barTotal').textContent = `${total} bài toán`;
+    $('#donutTotal').firstChild.textContent = total;
     $('#nationalCount').textContent = national;
     $('#localCount').textContent = local;
     $('#levelDonut').style.background = `conic-gradient(var(--blue) 0 ${(national / total) * 100}%, var(--cyan) ${(national / total) * 100}% 100%)`;
+    $('#levelDonut').setAttribute('aria-label', `${national} bài toán cấp Bộ và ${local} bài toán cấp địa phương`);
+    $('#dataUpdated').dateTime = data.updated;
+    $('#dataUpdated').textContent = dateVi(data.updated);
   }
 
   function renderBars() {
@@ -159,8 +169,11 @@
     const link = document.createElement('a');
     link.href = url;
     link.download = `bigmath-bai-toan-lon-${new Date().toISOString().slice(0, 10)}.csv`;
+    link.hidden = true;
+    document.body.append(link);
     link.click();
-    URL.revokeObjectURL(url);
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
 
   function bindEvents() {
