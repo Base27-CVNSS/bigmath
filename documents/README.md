@@ -36,7 +36,10 @@ Trong đó:
 | 13 | Địa phương | Tỉnh Đồng Tháp | 604/SKHCN-TTCĐS | 25/04/2025 | PDF | 4 | 5 | — | `604_SKHCN-TTCDS_25042025-signed_02.pdf` | [`2025-04-25_CV-604-SKHCN-TTCDS_danh-muc-bai-toan-lon.pdf`](dia-phuong/tinh-dong-thap/2025-04-25_CV-604-SKHCN-TTCDS_danh-muc-bai-toan-lon.pdf) |
 | 14 | Địa phương | TP. Đà Nẵng | 1235/SKHCN-CNTT | 22/05/2025 | PDF | 17 | 11⁴ | — | `1235.SKHCN.CNTT.signed.signed.signed.pdf` | [`2025-05-22_CV-1235-SKHCN-CNTT_danh-muc-bai-toan-lon-dot-1.pdf`](dia-phuong/tp-da-nang/2025-05-22_CV-1235-SKHCN-CNTT_danh-muc-bai-toan-lon-dot-1.pdf) |
 | 15 | Địa phương | TP. Hải Phòng | 1998/SKHCN-CNTT | 16/07/2025 | PDF | 11 | 10 | — | `danh-muc-cac-bai-toan-lon-cua-thanh-pho-theo-nghi-quyet-so-57-cua-bo-chinh-tri638895784075073201.pdf` | [`2025-07-16_CV-1998-SKHCN-CNTT_danh-muc-bai-toan-lon.pdf`](dia-phuong/tp-hai-phong/2025-07-16_CV-1998-SKHCN-CNTT_danh-muc-bai-toan-lon.pdf) |
-| **Tổng** |  | **15 nguồn** |  |  | **11 PDF + 4 DOC** | **161** | **190** | **8** |  |  |
+| 16 | Địa phương | Tỉnh Cà Mau | 4233/UBND-KGVX | 26/05/2025 | PDF | 2 | 4 | — | `451 DANH MỤC CÁC BÀI TOÁN LỚN pdf.pdf` | [`2025-05-26_CV-4233-UBND-KGVX_danh-muc-bai-toan-lon.pdf`](dia-phuong/tinh-ca-mau/2025-05-26_CV-4233-UBND-KGVX_danh-muc-bai-toan-lon.pdf) |
+| 17 | Địa phương | Tỉnh Thanh Hóa | 685/SKHCN-CNTT&CĐS | 16/04/2025 | PDF | 26 | 20⁵ | — | `Thanh Hoa.pdf` | [`2025-04-16_CV-685-SKHCN-CNTT-CDS_danh-muc-bai-toan-lon.pdf`](dia-phuong/tinh-thanh-hoa/2025-04-16_CV-685-SKHCN-CNTT-CDS_danh-muc-bai-toan-lon.pdf) |
+| 18 | Địa phương | Tỉnh Đồng Nai | 7466/UBND-KGVX | 11/06/2025 | PDF | 2 | 9 | — | `document-25.pdf` | [`2025-06-11_CV-7466-UBND-KGVX_danh-muc-bai-toan-lon.pdf`](dia-phuong/tinh-dong-nai/2025-06-11_CV-7466-UBND-KGVX_danh-muc-bai-toan-lon.pdf) |
+| **Tổng** |  | **18 nguồn** |  |  | **14 PDF + 4 DOC** | **191** | **223** | **8** |  |  |
 
 ¹ Với DOC, số trang được xác minh bằng bản dựng PDF tạm thời; tệp lưu trữ vẫn là DOC gốc.
 
@@ -45,6 +48,8 @@ Trong đó:
 ³ Tệp Huế là phụ lục 4 trang ban hành kèm Công văn 5878/UBND-CN; kho giữ nguyên bản phụ lục được cung cấp.
 
 ⁴ Công văn 1235/SKHCN-CNTT của Đà Nẵng trình danh mục 11 bài toán đề xuất đợt 1; trạng thái này được giữ rõ trong tên tệp và mô tả dữ liệu.
+
+⁵ Công văn 685/SKHCN-CNTT&CĐS xác nhận 20 bài toán của Thanh Hóa. Kho giữ đủ 20 dòng theo số thứ tự, kể cả các tiêu đề lặp lại trong phụ lục; không tự ý gộp hoặc loại trùng nội dung.
 
 ## Nguyên tắc cập nhật
 
