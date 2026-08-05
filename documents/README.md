@@ -2,6 +2,8 @@
 
 Thư mục này lưu các PDF nguồn đã được phân loại theo **Bộ ngành** và **Địa phương**. Tên tệp dùng ký tự ASCII, không có khoảng trắng, giúp liên kết ổn định trên GitHub, GitHub Pages và các hệ thống đồng bộ.
 
+Metadata máy đọc được, tên gốc, dung lượng và mã kiểm tra SHA-256 của toàn bộ tệp được công bố tại [`manifest.json`](manifest.json).
+
 ## Quy ước tên
 
 ```text
@@ -32,5 +34,6 @@ Trong đó:
 - Nếu có nhiều đợt công bố, thêm hậu tố `dot-1`, `dot-2` hoặc phạm vi tương ứng.
 - Nếu văn bản thay thế văn bản cũ, giữ cả hai bản và ghi quan hệ thay thế trong metadata.
 - Kiểm tra liên kết từ `assets/data.js` sau mỗi lần đổi tên hoặc di chuyển.
+- Cập nhật `manifest.json` và chạy `node scripts/validate.mjs` để xác nhận dung lượng, đường dẫn và SHA-256.
 
 > **Lưu ý:** Thông báo 259/TB-UBND của An Giang có Phụ lục 1 gồm 20 bài toán và Phụ lục 2 gồm 8 bài toán ưu tiên. Dashboard thống kê 20 bài toán chính và hiển thị 8 mục ưu tiên riêng.
