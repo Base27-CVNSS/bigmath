@@ -8,7 +8,10 @@
   <meta property="og:title" content="BigMath · Bản đồ Bài toán lớn Việt Nam">
   <meta property="og:description" content="Tra cứu 76 bài toán lớn từ 5 văn bản chính thức giai đoạn 2025–2026.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://base27-cvnss.github.io/bigmath/">
   <title>BigMath · Bản đồ Bài toán lớn Việt Nam</title>
+  <link rel="canonical" href="https://base27-cvnss.github.io/bigmath/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="assets/data.js"></script>
   <script src="assets/app.js" defer></script>
@@ -43,7 +46,7 @@
             <a class="button primary" href="#danh-muc">Tra cứu danh mục</a>
             <a class="button secondary" href="#van-ban">Mở kho văn bản</a>
           </div>
-          <p class="source-note">Dữ liệu được bóc tách từ 5 văn bản do Bộ Khoa học và Công nghệ cùng 4 tỉnh, thành phố ban hành.</p>
+          <p class="source-note">Dữ liệu được bóc tách từ 5 văn bản do Bộ Khoa học và Công nghệ cùng 4 tỉnh, thành phố ban hành · Cập nhật <time id="dataUpdated" datetime="2026-08-05">05/08/2026</time>.</p>
         </div>
         <aside class="hero-panel" aria-label="Tóm tắt phạm vi dữ liệu">
           <div class="signal"><span class="signal-dot"></span> Bộ dữ liệu đã đối chiếu PDF</div>
@@ -51,7 +54,7 @@
           <div class="mini-grid">
             <div><strong id="heroDocs">5</strong><span>văn bản</span></div>
             <div><strong id="heroPriority">8</strong><span>mục ưu tiên</span></div>
-            <div><strong>02</strong><span>năm dữ liệu</span></div>
+            <div><strong id="heroYears">02</strong><span>năm dữ liệu</span></div>
           </div>
         </aside>
       </div>
@@ -63,7 +66,8 @@
         <article><span class="stat-icon" aria-hidden="true">★</span><div><strong id="statPriorities">8</strong><span>Mục ưu tiên riêng</span></div></article>
         <article><span class="stat-icon" aria-hidden="true">▤</span><div><strong id="statDocuments">5</strong><span>Văn bản nguồn</span></div></article>
         <article><span class="stat-icon" aria-hidden="true">⌂</span><div><strong id="statAuthorities">5</strong><span>Cơ quan/địa phương</span></div></article>
-        <article><span class="stat-icon" aria-hidden="true">◷</span><div><strong>2025–26</strong><span>Khoảng thời gian</span></div></article>
+        <article><span class="stat-icon" aria-hidden="true">▧</span><div><strong id="statPages">70</strong><span>Tổng trang PDF</span></div></article>
+        <article><span class="stat-icon" aria-hidden="true">◷</span><div><strong id="statRange">2025–26</strong><span>Khoảng thời gian</span></div></article>
       </div>
     </section>
 
@@ -75,13 +79,13 @@
         </div>
         <div class="analytics-grid">
           <article class="panel distribution-panel">
-            <div class="panel-head"><div><span>PHÂN BỐ</span><h3>Theo cơ quan, địa phương</h3></div><small>76 bài toán</small></div>
+            <div class="panel-head"><div><span>PHÂN BỐ</span><h3>Theo cơ quan, địa phương</h3></div><small id="barTotal">76 bài toán</small></div>
             <div id="barChart" class="bar-chart" role="img" aria-label="Biểu đồ số bài toán theo cơ quan và địa phương"></div>
           </article>
           <article class="panel composition-panel">
             <div class="panel-head"><div><span>CƠ CẤU</span><h3>Bộ ngành và địa phương</h3></div></div>
             <div class="donut-wrap">
-              <div id="levelDonut" class="donut" role="img" aria-label="21 bài toán cấp Bộ và 55 bài toán cấp địa phương"><span>76<small>tổng mục</small></span></div>
+              <div id="levelDonut" class="donut" role="img" aria-label="21 bài toán cấp Bộ và 55 bài toán cấp địa phương"><span id="donutTotal">76<small>tổng mục</small></span></div>
               <div class="legend">
                 <div><i class="legend-dot national"></i><span>Cấp Bộ</span><strong id="nationalCount">21</strong></div>
                 <div><i class="legend-dot local"></i><span>Địa phương</span><strong id="localCount">55</strong></div>
@@ -135,7 +139,7 @@
             <button id="resetFilters" class="reset-button" type="button">Đặt lại</button>
           </div>
 
-          <div class="result-meta"><strong id="resultCount">76</strong> kết quả <span id="activeFilterText"></span></div>
+          <div class="result-meta" aria-live="polite"><strong id="resultCount">76</strong> kết quả <span id="activeFilterText"></span></div>
           <div class="table-scroll">
             <table>
               <thead><tr><th>Mã</th><th>Bài toán lớn</th><th>Nguồn</th><th>Lĩnh vực</th><th>Đơn vị chủ trì/đề xuất</th><th>Văn bản</th></tr></thead>
@@ -169,7 +173,7 @@
     <div class="container footer-grid">
       <div class="brand footer-brand"><span class="brand-mark" aria-hidden="true">Σ</span><span><strong>BigMath</strong><small>Open data for big problems</small></span></div>
       <p>Kho tham khảo độc lập. Khi trích dẫn hoặc triển khai nhiệm vụ, vui lòng kiểm tra trực tiếp văn bản PDF của cơ quan ban hành.</p>
-      <div><a href="https://github.com/Base27-CVNSS/bigmath" target="_blank" rel="noopener noreferrer">Mã nguồn</a><a href="#top">Lên đầu trang ↑</a></div>
+      <div><a href="documents/manifest.json">Manifest</a><a href="https://github.com/Base27-CVNSS/bigmath" target="_blank" rel="noopener noreferrer">Mã nguồn</a><a href="#top">Lên đầu trang ↑</a></div>
     </div>
   </footer>
 </body>
