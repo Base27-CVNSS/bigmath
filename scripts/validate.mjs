@@ -54,11 +54,14 @@ for (const doc of data.documents) {
   assert(archive.pages === doc.pages, `${doc.number} có số trang khác giữa data.js và manifest.`);
   assert(archive.primaryCount === doc.primaryCount, `${doc.number} có tổng bài toán khác giữa data.js và manifest.`);
   assert(archive.priorityCount === doc.priorityCount, `${doc.number} có tổng ưu tiên khác giữa data.js và manifest.`);
+  assert(archive.format === doc.format, `${doc.number} có định dạng khác giữa data.js và manifest.`);
   assert(doc.level === 'Bộ ngành' ? doc.path.startsWith('documents/bo-nganh/') : doc.path.startsWith('documents/dia-phuong/'), `${doc.number} nằm sai nhánh thư mục.`);
   assert(!/[\s\u0080-\uFFFF]/u.test(doc.path), `${doc.number} có đường dẫn chứa khoảng trắng hoặc ký tự ngoài ASCII.`);
+  assert(doc.path.toLowerCase().endsWith(`.${doc.format.toLowerCase()}`), `${doc.number} có phần mở rộng không khớp định dạng ${doc.format}.`);
+  assert(Boolean(archive.originalName), `${doc.number} thiếu tên tệp gốc trong manifest.`);
 
   const file = resolve(root, doc.path);
-  assert(existsSync(file), `${doc.number} thiếu tệp PDF: ${doc.path}.`);
+  assert(existsSync(file), `${doc.number} thiếu tệp nguồn: ${doc.path}.`);
   if (!existsSync(file)) continue;
 
   const bytes = statSync(file).size;
@@ -77,4 +80,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`✓ BigMath hợp lệ: ${data.documents.length} văn bản · ${data.problems.length} bài toán chính · ${data.priorities.length} mục ưu tiên · ${pages} trang PDF`);
+console.log(`✓ BigMath hợp lệ: ${data.documents.length} văn bản · ${data.problems.length} bài toán chính · ${data.priorities.length} mục ưu tiên · ${pages} trang kiểm tra`);

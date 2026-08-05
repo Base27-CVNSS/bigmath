@@ -1,6 +1,6 @@
 window.BIGMATH_DATA = {
   "updated": "2026-08-05",
-  "methodology": "Tổng số bài toán chính được tính theo danh mục chính của từng văn bản. 8 mục ưu tiên tại Phụ lục 2 của An Giang được thống kê riêng để tránh cộng trùng.",
+  "methodology": "Tổng số bài toán chính được tính theo danh mục chính của từng văn bản. Riêng Kế hoạch 2592/KH-UBND của Tây Ninh được tính một lần theo bài toán lớn nêu trực tiếp trong tiêu đề. 8 mục ưu tiên tại Phụ lục 2 của An Giang được thống kê riêng để tránh cộng trùng. Hai tệp nguồn Vĩnh Phúc giống hệt nhau được lưu một bản duy nhất.",
   "documents": [
     {
       "id": "bo-khcn",
@@ -14,7 +14,8 @@ window.BIGMATH_DATA = {
       "pages": 4,
       "primaryCount": 21,
       "priorityCount": 0,
-      "path": "documents/bo-nganh/bo-khoa-hoc-va-cong-nghe/2025-06-04_QD-1144-QD-BKHCN_danh-muc-bai-toan-lon.pdf"
+      "path": "documents/bo-nganh/bo-khoa-hoc-va-cong-nghe/2025-06-04_QD-1144-QD-BKHCN_danh-muc-bai-toan-lon.pdf",
+      "format": "PDF"
     },
     {
       "id": "tp-ho-chi-minh",
@@ -28,7 +29,8 @@ window.BIGMATH_DATA = {
       "pages": 2,
       "primaryCount": 14,
       "priorityCount": 0,
-      "path": "documents/dia-phuong/tp-ho-chi-minh/2025-05-20_CV-3572-UBND-KT_danh-muc-bai-toan-lon.pdf"
+      "path": "documents/dia-phuong/tp-ho-chi-minh/2025-05-20_CV-3572-UBND-KT_danh-muc-bai-toan-lon.pdf",
+      "format": "PDF"
     },
     {
       "id": "vinh-long",
@@ -42,7 +44,8 @@ window.BIGMATH_DATA = {
       "pages": 10,
       "primaryCount": 9,
       "priorityCount": 0,
-      "path": "documents/dia-phuong/tinh-vinh-long/2025-05-13_CV-3552-UBND-VX_cong-bo-danh-muc-bai-toan-lon.pdf"
+      "path": "documents/dia-phuong/tinh-vinh-long/2025-05-13_CV-3552-UBND-VX_cong-bo-danh-muc-bai-toan-lon.pdf",
+      "format": "PDF"
     },
     {
       "id": "can-tho",
@@ -56,7 +59,8 @@ window.BIGMATH_DATA = {
       "pages": 16,
       "primaryCount": 12,
       "priorityCount": 0,
-      "path": "documents/dia-phuong/tp-can-tho/2026-04-06_QD-1424-QD-UBND_danh-muc-bai-toan-lon-dot-1.pdf"
+      "path": "documents/dia-phuong/tp-can-tho/2026-04-06_QD-1424-QD-UBND_danh-muc-bai-toan-lon-dot-1.pdf",
+      "format": "PDF"
     },
     {
       "id": "an-giang",
@@ -70,7 +74,98 @@ window.BIGMATH_DATA = {
       "pages": 38,
       "primaryCount": 20,
       "priorityCount": 8,
-      "path": "documents/dia-phuong/tinh-an-giang/2026-05-26_TB-259-TB-UBND_cong-bo-bai-toan-lon.pdf"
+      "path": "documents/dia-phuong/tinh-an-giang/2026-05-26_TB-259-TB-UBND_cong-bo-bai-toan-lon.pdf",
+      "format": "PDF"
+    },
+    {
+      "id": "bo-nnmt",
+      "level": "Bộ ngành",
+      "authority": "Bộ Nông nghiệp và Môi trường",
+      "place": "Toàn quốc",
+      "date": "2025-08-25",
+      "year": 2025,
+      "type": "Quyết định",
+      "number": "3410/QĐ-BNNMT",
+      "format": "PDF",
+      "pages": 4,
+      "primaryCount": 15,
+      "priorityCount": 0,
+      "path": "documents/bo-nganh/bo-nong-nghiep-va-moi-truong/2025-08-25_QD-3410-QD-BNNMT_danh-muc-bai-toan-lon.pdf"
+    },
+    {
+      "id": "yen-bai",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân tỉnh Yên Bái",
+      "place": "Yên Bái",
+      "date": "2025-05-26",
+      "year": 2025,
+      "type": "Quyết định",
+      "number": "1083/QĐ-UBND",
+      "format": "PDF",
+      "pages": 11,
+      "primaryCount": 15,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tinh-yen-bai/2025-05-26_QD-1083-QD-UBND_danh-muc-bai-toan-lon.pdf"
+    },
+    {
+      "id": "vinh-phuc",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân tỉnh Vĩnh Phúc",
+      "place": "Vĩnh Phúc",
+      "date": "2025-06-06",
+      "year": 2025,
+      "type": "Quyết định",
+      "number": "1148/QĐ-CT",
+      "format": "DOC",
+      "pages": 10,
+      "primaryCount": 12,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tinh-vinh-phuc/2025-06-06_QD-1148-QD-CT_danh-muc-bai-toan-lon-dot-1.doc"
+    },
+    {
+      "id": "ha-noi",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân thành phố Hà Nội",
+      "place": "Hà Nội",
+      "date": "2026-03-18",
+      "year": 2026,
+      "type": "Quyết định",
+      "number": "1193/QĐ-UBND",
+      "format": "DOC",
+      "pages": 18,
+      "primaryCount": 30,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tp-ha-noi/2026-03-18_QD-1193-QD-UBND_danh-muc-bai-toan-lon-dot-1.doc"
+    },
+    {
+      "id": "dak-lak",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân tỉnh Đắk Lắk",
+      "place": "Đắk Lắk",
+      "date": "2026-04-22",
+      "year": 2026,
+      "type": "Quyết định",
+      "number": "1269/QĐ-UBND",
+      "format": "DOC",
+      "pages": 2,
+      "primaryCount": 8,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tinh-dak-lak/2026-04-22_QD-1269-QD-UBND_danh-muc-bai-toan-lon.doc"
+    },
+    {
+      "id": "tay-ninh-ai",
+      "level": "Địa phương",
+      "authority": "Ủy ban nhân dân tỉnh Tây Ninh",
+      "place": "Tây Ninh",
+      "date": "2026-06-10",
+      "year": 2026,
+      "type": "Kế hoạch",
+      "number": "2592/KH-UBND",
+      "format": "DOC",
+      "pages": 10,
+      "primaryCount": 1,
+      "priorityCount": 0,
+      "path": "documents/dia-phuong/tinh-tay-ninh/2026-06-10_KH-2592-KH-UBND_trien-khai-he-sinh-thai-ai-tu-chu.doc"
     }
   ],
   "problems": [
@@ -832,6 +927,816 @@ window.BIGMATH_DATA = {
       "field": "Giáo dục",
       "unit": "Sở Giáo dục và Đào tạo",
       "title": "Xây dựng hoàn thiện trục dữ liệu liên thông của ngành giáo dục tỉnh An Giang",
+      "year": 2026
+    },
+    {
+      "id": "bo-nnmt-01",
+      "ordinal": 1,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Quản lý tài nguyên nước",
+      "field": "Tài nguyên nước",
+      "title": "Chương trình phục hồi các nguồn nước bị suy thoái, cạn kiệt, ô nhiễm trên các lưu vực sông lớn, quan trọng quốc gia giai đoạn 2026 - 2030",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-02",
+      "ordinal": 2,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Khí tượng thủy văn",
+      "field": "Khí tượng thủy văn",
+      "title": "Làm chủ công nghệ chiến lược (AI, Big Data, IoT, truyền thông 5G, LoRaWAN…) trong quan trắc, giám sát, truyền tin, dự báo, cảnh báo thiên tai khí tượng thủy văn phục vụ phòng chống thiên tai, phát triển kinh tế - xã hội bền vững",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-03",
+      "ordinal": 3,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Quản lý đê điều và Phòng, chống thiên tai",
+      "field": "Phòng chống thiên tai",
+      "title": "Nâng cao khả năng phòng, chống loại hình thiên tai lũ quét, sạt lở đất",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-04",
+      "ordinal": 4,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Đo đạc, Bản đồ và Thông tin địa lý Việt Nam",
+      "field": "Dữ liệu địa lý",
+      "title": "Nghiên cứu, phát triển và làm chủ các công nghệ chiến lược (Trí tuệ nhân tạo, Bản sao số, Điện toán đám mây, Blockchain) trong lĩnh vực đo đạc và bản đồ, phục vụ xây dựng, phát triển và khai thác Hạ tầng dữ liệu không gian địa lý quốc gia",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-05",
+      "ordinal": 5,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Viễn thám quốc gia",
+      "field": "Viễn thám",
+      "title": "Ứng dụng viễn thám và trí tuệ nhân tạo trong xây dựng hệ thống quan trắc, giám sát, cảnh báo tự động trong lĩnh vực nông nghiệp và môi trường",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-06",
+      "ordinal": 6,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Lâm nghiệp và Kiểm lâm",
+      "field": "Lâm nghiệp",
+      "title": "Nâng cao năng suất, chất lượng, quản lý rừng bền vững, tăng cường trữ lượng các-bon và giá trị gia tăng của rừng, phát triển các sản phẩm gỗ, lâm sản ngoài gỗ theo chuỗi giá trị bằng công nghệ chiến lược và chuyển đổi số",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-07",
+      "ordinal": 7,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Chăn nuôi và Thú y",
+      "field": "Chăn nuôi",
+      "title": "Hệ thống kê khai chăn nuôi, truy xuất nguồn gốc (bao gồm giống, thức ăn, công nghệ chuồng trại, quy trình nuôi, sử dụng thuốc, vào và xuất ra đến giết mổ và siêu thị)",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-08",
+      "ordinal": 8,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Chăn nuôi và Thú y",
+      "field": "Carbon",
+      "title": "Hệ thống quan trắc và kiểm kê khí nhà kính thiết lập tín chỉ carbon lĩnh vực chăn nuôi và thú y",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-09",
+      "ordinal": 9,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Thủy sản và Kiểm ngư",
+      "field": "Thủy sản",
+      "title": "Phát triển nền tảng số hóa và trợ lý ảo thông minh phục vụ quản lý nghề cá bền vững và truy xuất điện tử nguồn gốc thủy sản",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-10",
+      "ordinal": 10,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Học viện Nông nghiệp Việt Nam",
+      "field": "Năng lượng sinh học",
+      "title": "Phát triển vùng nguyên liệu cây cao lương phục vụ sản xuất nhiên liệu sinh học",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-11",
+      "ordinal": 11,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Học viện Nông nghiệp Việt Nam",
+      "field": "Nhân lực",
+      "title": "Đào tạo phát triển nguồn nhân lực chất lượng cao ngành nông nghiệp và môi trường đáp ứng bối cảnh chuyển đổi số và hội nhập quốc tế",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-12",
+      "ordinal": 12,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Viện Khoa học Khí tượng Thủy văn và Biến đổi khí hậu",
+      "field": "Biến đổi khí hậu",
+      "title": "Xây dựng Hệ thống giám sát, đánh giá tác động của biến đổi khí hậu và hiệu quả thích ứng trong lĩnh vực Nông nghiệp và Môi trường trên nền tảng dữ liệu lớn và công nghệ AI",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-13",
+      "ordinal": 13,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Biển và Hải đảo Việt Nam",
+      "field": "Kinh tế biển",
+      "title": "Khai thác bền vững tài nguyên, bảo vệ hệ sinh thái, môi trường biển; đột phá điều tra, nghiên cứu biển sâu",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-14",
+      "ordinal": 14,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Môi trường",
+      "field": "Môi trường",
+      "title": "Hiện đại hóa và chuyển đổi số toàn diện Hệ thống quản lý chất lượng không khí quốc gia: Giám sát, đánh giá, cảnh báo và dự báo ô nhiễm dựa trên nền tảng bản sao số (DW), IoT và trí tuệ nhân tạo (AI)",
+      "year": 2025
+    },
+    {
+      "id": "bo-nnmt-15",
+      "ordinal": 15,
+      "source": "bo-nnmt",
+      "authority": "Bộ NN&MT",
+      "unit": "Cục Môi trường",
+      "field": "Môi trường",
+      "title": "Ứng dụng khoa học công nghệ đột phá trong xây dựng và khai thác cơ sở dữ liệu quan trắc môi trường nền phục vụ quản lý môi trường và phát triển kinh tế - xã hội bền vững ở Việt Nam",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-01",
+      "ordinal": 1,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Dữ liệu số",
+      "title": "Xây dựng Kho dữ liệu tổng hợp phục vụ đô thị thông minh tỉnh Yên Bái",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-02",
+      "ordinal": 2,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Đô thị thông minh",
+      "title": "Xây dựng Trung tâm điều hành thông minh (IOC) tỉnh Yên Bái",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-03",
+      "ordinal": 3,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Dữ liệu địa lý",
+      "title": "Xây dựng Nền tảng cơ sở dữ liệu không gian địa lý tỉnh Yên Bái",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-04",
+      "ordinal": 4,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Du lịch",
+      "title": "Xây dựng hệ sinh thái số hỗ trợ phát triển du lịch xanh và thông minh tỉnh Yên Bái đến năm 2030",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-05",
+      "ordinal": 5,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Khu công nghiệp",
+      "title": "Quản lý Khu công nghiệp phía Nam, tỉnh Yên Bái bằng công nghệ số",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-06",
+      "ordinal": 6,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "An toàn thông tin",
+      "title": "Bài toán thông minh, tự động hóa, ứng dụng công nghệ trí tuệ nhân tạo (AI) nhằm nâng cao hiệu quả rà quét, tổng hợp, đánh giá thông tin xấu, độc được đăng tải trên không gian mạng, phục vụ công tác bảo vệ nền tảng tư tưởng của Đảng và đấu tranh phản bác quan điểm sai trái, thù địch",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-07",
+      "ordinal": 7,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "An ninh mạng",
+      "title": "Xây dựng Hệ thống giám sát và phản ứng sớm tấn công mạng vào các hệ thống thông tin quan trọng, lưu trữ tài liệu thuộc Bí mật nhà nước trên địa bàn tỉnh",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-08",
+      "ordinal": 8,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "An ninh trật tự",
+      "title": "Xây dựng hệ thống quản lý, giám sát hoạt động nhập cảnh, quá cảnh, cư trú của người nước ngoài trên địa bàn tỉnh Yên Bái",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-09",
+      "ordinal": 9,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Quản lý doanh nghiệp",
+      "title": "Nền tảng chuyển đổi số trong quản lý, giám sát doanh nghiệp hoạt động trong lĩnh vực có nguy cơ vi phạm pháp luật về kinh tế, môi trường",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-10",
+      "ordinal": 10,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Giáo dục",
+      "title": "Xây dựng và triển khai mô hình Trường học thông minh trên địa bàn tỉnh Yên Bái",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-11",
+      "ordinal": 11,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Kinh tế số",
+      "title": "Phát triển kinh tế số và du lịch sinh thái - cộng đồng gắn với giá trị cây Quế Văn Yên, Yên Bái",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-12",
+      "ordinal": 12,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Du lịch",
+      "title": "Xây dựng mô hình điểm phát triển kinh tế số gắn với phát triển du lịch, bảo tồn, nâng cao giá trị cây Chè Shan Tuyết tại Khu du lịch Suối Giàng, tỉnh Yên Bái",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-13",
+      "ordinal": 13,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Môi trường",
+      "title": "Giải pháp xử lý môi trường đối với việc triển khai dự án điện mặt trời trên hồ Thác Bà",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-14",
+      "ordinal": 14,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Tư pháp số",
+      "title": "Nâng cấp cơ sở dữ liệu công chứng theo quy định tại Luật Công chứng năm 2024; bổ sung chức năng cập nhật thông tin ngăn chặn và thông tin về hợp đồng, giao dịch tài sản đã công chứng; kết nối cơ sở dữ liệu công chứng với cơ sở dữ liệu đất đai",
+      "year": 2025
+    },
+    {
+      "id": "yen-bai-15",
+      "ordinal": 15,
+      "source": "yen-bai",
+      "authority": "Yên Bái",
+      "unit": "Ủy ban nhân dân tỉnh Yên Bái",
+      "field": "Chính quyền số",
+      "title": "Xây dựng hệ thống báo cáo trực tuyến giữa Ủy ban nhân dân cấp xã với các cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh nhằm tạo thuận lợi cho việc nắm bắt tình hình hoạt động, khai thác, sử dụng số liệu báo cáo thống kê",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-01",
+      "ordinal": 1,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Đô thị thông minh",
+      "title": "Trung tâm giám sát, điều hành thông minh tỉnh Vĩnh Phúc",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-02",
+      "ordinal": 2,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Đổi mới sáng tạo",
+      "title": "Trung tâm nghiên cứu khoa học, phòng thí nghiệm, khu thực nghiệm vườn ươm của tỉnh Vĩnh Phúc",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-03",
+      "ordinal": 3,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Công an tỉnh",
+      "field": "An ninh trật tự",
+      "title": "Dự án Hệ thống camera đảm bảo an ninh trật tự, an toàn giao thông, văn minh đô thị, phòng chống vi phạm pháp luật trên địa bàn tỉnh",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-04",
+      "ordinal": 4,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Công an tỉnh",
+      "field": "Dữ liệu địa lý",
+      "title": "Xây dựng Hệ thống Bản đồ số trên địa bàn tỉnh",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-05",
+      "ordinal": 5,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Công an tỉnh",
+      "field": "An ninh mạng",
+      "title": "Trung tâm điều hành an ninh mạng tỉnh Vĩnh Phúc",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-06",
+      "ordinal": 6,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Công an tỉnh",
+      "field": "AI",
+      "title": "Xây dựng hệ thống phân tích và dự báo tình hình an ninh trật tự trên địa bàn tỉnh Vĩnh Phúc ứng dụng trí tuệ nhân tạo và dữ liệu lớn (Big Data)",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-07",
+      "ordinal": 7,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Sở Nội vụ",
+      "field": "Chính quyền số",
+      "title": "Phần mềm đánh giá hiệu quả công việc (KPI) công chức gắn với vị trí việc làm và nhiệm vụ cụ thể được giao",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-08",
+      "ordinal": 8,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Sở Nông nghiệp và Môi trường",
+      "field": "Đất đai",
+      "title": "Dự án số hóa cơ sở dữ liệu quản lý đất đai của tỉnh Vĩnh Phúc",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-09",
+      "ordinal": 9,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Sở Nông nghiệp và Môi trường",
+      "field": "Đất đai",
+      "title": "Xây dựng, hoàn thiện cơ sở dữ liệu đất đai các xã (sau khi sáp nhập) trên địa bàn tỉnh",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-10",
+      "ordinal": 10,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Sở Xây dựng",
+      "field": "Quy hoạch đô thị",
+      "title": "Xây dựng Hệ thống quản lý quy hoạch và phát triển đô thị tỉnh Vĩnh Phúc (giai đoạn 2)",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-11",
+      "ordinal": 11,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Sở Giáo dục và Đào tạo",
+      "field": "Giáo dục",
+      "title": "Xây dựng đề án “Phát triển đội ngũ nhà giáo và cán bộ quản lý cơ sở giáo dục phổ thông giai đoạn 2026 - 2030, định hướng đến năm 2045”",
+      "year": 2025
+    },
+    {
+      "id": "vinh-phuc-12",
+      "ordinal": 12,
+      "source": "vinh-phuc",
+      "authority": "Vĩnh Phúc",
+      "unit": "Sở Tài chính",
+      "field": "Đầu tư",
+      "title": "Xây dựng chính sách “InvestTech” - ứng dụng công nghệ thông tin và đổi mới sáng tạo trong công tác quản lý và thu hút các dự án đầu tư",
+      "year": 2025
+    },
+    {
+      "id": "ha-noi-01",
+      "ordinal": 1,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Giao thông",
+      "title": "Mô hình nào giúp giải quyết nhanh tình trạng ùn tắc giao thông đô thị trong điều kiện hạn chế quỹ đất?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-02",
+      "ordinal": 2,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Quản trị đô thị",
+      "title": "Cơ chế nào xác lập trật tự, kỷ cương và vệ sinh đô thị Thủ đô bền vững thông qua quản trị hiện đại và giám sát tự động?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-03",
+      "ordinal": 3,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Môi trường",
+      "title": "Làm thế nào để kiểm soát triệt để các nguồn phát thải và phục hồi chất lượng môi trường (nước, không khí) thông qua định danh nguồn thải và mục tiêu Net Zero?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-04",
+      "ordinal": 4,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Hạ tầng đô thị",
+      "title": "Cách thức nào để giải quyết hiệu quả tình trạng ngập úng đô thị trong điều kiện biến đổi khí hậu và đô thị hóa cao/nhanh?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-05",
+      "ordinal": 5,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "An toàn thực phẩm",
+      "title": "Biện pháp nào kiểm soát và bảo đảm an toàn thực phẩm trên địa bàn Thủ đô?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-06",
+      "ordinal": 6,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Không gian đô thị",
+      "title": "Cách thức nào để quản trị và khai thác hiệu quả tài nguyên không gian đô thị đa tầng (Ngầm - Mặt đất - Tầm thấp - Tầng cao)?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-07",
+      "ordinal": 7,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Không gian tầm thấp",
+      "title": "Cách thức nào thiết lập hành lang bay và hệ thống quản lý an toàn nhằm kích hoạt “Kinh tế không gian tầm thấp” cho Thủ đô?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-08",
+      "ordinal": 8,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Đô thị thông minh",
+      "title": "Bằng cách nào tái thiết và phát triển hạ tầng đô thị xanh, thông minh, bền vững, tỏa hiệu quả cho Thủ đô Hà Nội?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-09",
+      "ordinal": 9,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Đất đai",
+      "title": "Cách thức nào số hóa toàn diện và quản trị minh bạch tài nguyên đất đai và thị trường bất động sản bằng công nghệ số?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-10",
+      "ordinal": 10,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Chính quyền số",
+      "title": "Cách thức nào để đổi mới mô hình quản trị Thủ đô theo hướng phục vụ, cung cấp dịch vụ công toàn trình, cá thể hóa, tự động và hiệu quả dựa trên dữ liệu nhằm kiến tạo cho phát triển nền kinh tế?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-11",
+      "ordinal": 11,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Kinh tế tri thức",
+      "title": "Phương thức nào để xác lập và vận hành mô hình tăng trưởng mới dựa trên năng suất các nhân tố tổng hợp (TFP) và kinh tế tri thức?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-12",
+      "ordinal": 12,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Kinh tế số",
+      "title": "Phương thức nào để đưa kinh tế dữ liệu trở thành động lực tăng trưởng chủ đạo và hiện thực hóa mục tiêu kinh tế số đạt tỷ trọng 40% GRDP vào năm 2030?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-13",
+      "ordinal": 13,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Nền tảng số",
+      "title": "Kiến trúc và cơ chế nào để xây dựng hệ sinh thái kinh tế nền tảng “Make in Hanoi” bền vững và tự chủ?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-14",
+      "ordinal": 14,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Công nghiệp văn hóa",
+      "title": "Bằng phương thức nào để thực hiện cuộc cách mạng di sản, chuyển hóa các giá trị Thăng Long - Hà Nội thành động lực kinh tế mũi nhọn thông qua công nghiệp văn hóa?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-15",
+      "ordinal": 15,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Du lịch",
+      "title": "Phương thức nào giúp phát triển du lịch thông minh và kinh tế đêm thu hút tối thiểu 12 triệu khách quốc tế?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-16",
+      "ordinal": 16,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Logistics",
+      "title": "Cách thức nào để xây dựng hệ thống logistics thông minh và các trung tâm trung chuyển liên vùng?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-17",
+      "ordinal": 17,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Nông nghiệp",
+      "title": "Phát triển nông nghiệp công nghệ cao gắn với kinh tế sinh thái như thế nào?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-18",
+      "ordinal": 18,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Công nghiệp",
+      "title": "Tái định hình tiến trình công nghiệp hóa theo hướng công nghệ cao và sản xuất thông minh như thế nào?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-19",
+      "ordinal": 19,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Tài chính",
+      "title": "Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính và dịch vụ chất lượng cao quốc tế?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-20",
+      "ordinal": 20,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Kinh tế",
+      "title": "Cách thức nào để kinh tế nhà nước dẫn dắt và kinh tế tư nhân thực sự là động lực quan trọng nhất?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-21",
+      "ordinal": 21,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Doanh nghiệp",
+      "title": "Phương thức nào để tăng năng suất lao động đô thị và chuyển đổi số toàn diện cho mạng lưới doanh nghiệp vừa và nhỏ (SME)?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-22",
+      "ordinal": 22,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Nhân lực",
+      "title": "Xây dựng Thủ đô thành trung tâm thu hút và trọng dụng nhân tài toàn cầu, nhà khoa học đầu ngành phục vụ phát triển kinh tế tri thức bằng các con đường nào?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-23",
+      "ordinal": 23,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Công nghệ chiến lược",
+      "title": "Kiến trúc công nghệ và lộ trình nào để Hà Nội sớm làm chủ 04 sản phẩm công nghệ chiến lược ưu tiên triển khai ngay? Ứng dụng trong quản trị cũng như phát triển kinh tế?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-24",
+      "ordinal": 24,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Bản sao số",
+      "title": "Làm thế nào để ứng dụng Bản sao số (Digital Twin) vào giải quyết các bài toán đô thị phức tạp và phát triển kinh tế?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-25",
+      "ordinal": 25,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Đổi mới sáng tạo",
+      "title": "Mô hình và hệ sinh thái như thế nào giúp phát triển Hà Nội trở thành trung tâm đổi mới sáng tạo hàng đầu khu vực?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-26",
+      "ordinal": 26,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "An ninh mạng",
+      "title": "“Pháo đài dữ liệu” và hệ thống an ninh thông minh của Thủ đô được thiết lập bằng cách thức nào?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-27",
+      "ordinal": 27,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "An sinh xã hội",
+      "title": "Kiến trúc và mô hình quản trị nào để vận hành hệ thống an sinh xã hội đa tầng, hiện đại và thích ứng linh hoạt trên nền tảng dữ liệu lớn?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-28",
+      "ordinal": 28,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Giáo dục & Y tế",
+      "title": "Phương thức nào để đưa giáo dục và y tế Thủ đô đạt chuẩn quốc tế, dẫn đầu khu vực dựa trên nền tảng công nghệ số và đổi mới sáng tạo?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-29",
+      "ordinal": 29,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Kinh tế xanh",
+      "title": "Cách thức nào để phát triển kinh tế xanh, kinh tế tuần hoàn trở thành động lực tăng trưởng của Thủ đô?",
+      "year": 2026
+    },
+    {
+      "id": "ha-noi-30",
+      "ordinal": 30,
+      "source": "ha-noi",
+      "authority": "Hà Nội",
+      "unit": "Các sở, ban, ngành Thành phố",
+      "field": "Nhân lực",
+      "title": "Phương án nào quản trị lao động hiện đại và giúp thích ứng với già hóa dân số và thu hẹp khoảng cách năng lực số?",
+      "year": 2026
+    },
+    {
+      "id": "dak-lak-01",
+      "ordinal": 1,
+      "source": "dak-lak",
+      "authority": "Đắk Lắk",
+      "unit": "Sở Nông nghiệp và Môi trường",
+      "field": "Nông nghiệp",
+      "title": "Phát triển nông nghiệp thông minh, nâng cao năng suất, chất lượng, giá trị gia tăng của các loại cây trồng chủ lực, đánh bắt, nuôi trồng thủy, hải sản, gắn liền với bảo vệ môi trường tỉnh Đắk Lắk",
+      "year": 2026
+    },
+    {
+      "id": "dak-lak-02",
+      "ordinal": 2,
+      "source": "dak-lak",
+      "authority": "Đắk Lắk",
+      "unit": "Sở Văn hóa, Thể thao và Du lịch",
+      "field": "Du lịch",
+      "title": "Ứng dụng khoa học, công nghệ, chuyển đổi số trong phát triển du lịch thông minh, xây dựng du lịch trở thành ngành kinh tế mũi nhọn của tỉnh",
+      "year": 2026
+    },
+    {
+      "id": "dak-lak-03",
+      "ordinal": 3,
+      "source": "dak-lak",
+      "authority": "Đắk Lắk",
+      "unit": "Sở Giáo dục và Đào tạo",
+      "field": "Giáo dục",
+      "title": "Chuyển đổi số toàn diện ngành giáo dục",
+      "year": 2026
+    },
+    {
+      "id": "dak-lak-04",
+      "ordinal": 4,
+      "source": "dak-lak",
+      "authority": "Đắk Lắk",
+      "unit": "Sở Y tế",
+      "field": "Y tế",
+      "title": "Ứng dụng khoa học, công nghệ, chuyển đổi số trong nâng cao chất lượng công tác quản lý ngành y tế, công tác khám, chữa bệnh, chăm sóc sức khỏe Nhân dân",
+      "year": 2026
+    },
+    {
+      "id": "dak-lak-05",
+      "ordinal": 5,
+      "source": "dak-lak",
+      "authority": "Đắk Lắk",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Kinh tế số",
+      "title": "Phát triển kinh tế số tỉnh Đắk Lắk",
+      "year": 2026
+    },
+    {
+      "id": "dak-lak-06",
+      "ordinal": 6,
+      "source": "dak-lak",
+      "authority": "Đắk Lắk",
+      "unit": "Công an tỉnh",
+      "field": "An ninh mạng",
+      "title": "Đẩy mạnh ứng dụng khoa học, công nghệ và chuyển đổi số trong đảm bảo an toàn, an ninh mạng, an ninh, trật tự trên địa bàn tỉnh Đắk Lắk",
+      "year": 2026
+    },
+    {
+      "id": "dak-lak-07",
+      "ordinal": 7,
+      "source": "dak-lak",
+      "authority": "Đắk Lắk",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Hạ tầng số",
+      "title": "Hoàn thiện hạ tầng số và dữ liệu số, phục vụ phát triển tỉnh Đắk Lắk nhanh, bền vững",
+      "year": 2026
+    },
+    {
+      "id": "dak-lak-08",
+      "ordinal": 8,
+      "source": "dak-lak",
+      "authority": "Đắk Lắk",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "Đổi mới sáng tạo",
+      "title": "Xây dựng Trung tâm nghiên cứu khoa học và đổi mới sáng tạo cấp vùng",
+      "year": 2026
+    },
+    {
+      "id": "tay-ninh-ai-01",
+      "ordinal": 1,
+      "source": "tay-ninh-ai",
+      "authority": "Tây Ninh",
+      "unit": "Sở Khoa học và Công nghệ",
+      "field": "AI",
+      "title": "Xây dựng hệ sinh thái AI tự chủ, ứng dụng AI và dữ liệu lớn phục vụ công tác chỉ đạo, điều hành, tác nghiệp trong cơ quan nhà nước của tỉnh đến năm 2030",
       "year": 2026
     }
   ],

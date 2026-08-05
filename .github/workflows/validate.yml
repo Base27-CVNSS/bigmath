@@ -18,5 +18,5 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Kiểm định dữ liệu và kho PDF
+      - name: Kiểm định dữ liệu và kho văn bản
         run: node scripts/validate.mjs

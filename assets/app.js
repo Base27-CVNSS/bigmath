@@ -33,14 +33,15 @@
     const docs = data.documents.length;
     const pages = data.documents.reduce((sum, doc) => sum + doc.pages, 0);
     const years = [...new Set(data.documents.map((doc) => doc.year))].sort();
-    const local = data.problems.filter((item) => item.source !== 'bo-khcn').length;
+    const local = data.problems.filter((item) => documentsById.get(item.source)?.level !== 'Bộ ngành').length;
     const national = total - local;
+    const authorities = new Set(data.documents.map((doc) => doc.authority)).size;
 
     ['#heroTotal', '#statProblems'].forEach((id) => { $(id).textContent = total; });
     ['#heroPriority', '#statPriorities'].forEach((id) => { $(id).textContent = priority; });
     ['#heroDocs', '#statDocuments'].forEach((id) => { $(id).textContent = docs; });
     $('#heroYears').textContent = String(years.length).padStart(2, '0');
-    $('#statAuthorities').textContent = docs;
+    $('#statAuthorities').textContent = authorities;
     $('#statPages').textContent = pages;
     $('#statRange').textContent = `${years[0]}–${String(years.at(-1)).slice(-2)}`;
     $('#barTotal').textContent = `${total} bài toán`;
@@ -76,15 +77,15 @@
   function renderDocuments() {
     $('#documentGrid').innerHTML = data.documents.map((doc) => `
       <article class="document-card">
-        <div class="document-top"><span class="doc-type">${escapeHtml(doc.level)}</span><time datetime="${doc.date}">${dateVi(doc.date)}</time></div>
+        <div class="document-top"><span class="doc-type">${escapeHtml(doc.level)} · ${escapeHtml(doc.format || 'PDF')}</span><time datetime="${doc.date}">${dateVi(doc.date)}</time></div>
         <h3>${escapeHtml(doc.number)}</h3>
         <p>${escapeHtml(doc.authority)}</p>
         <div class="doc-metrics">
           <div><strong>${doc.primaryCount}</strong><span>Bài toán chính</span></div>
-          <div><strong>${doc.pages}</strong><span>Trang PDF</span></div>
+          <div><strong>${doc.pages}</strong><span>Trang kiểm tra</span></div>
           ${doc.priorityCount ? `<div><strong>${doc.priorityCount}</strong><span>Ưu tiên</span></div>` : ''}
         </div>
-        <a href="${encodeURI(doc.path)}" target="_blank" rel="noopener">Mở ${escapeHtml(doc.type)} PDF ↗</a>
+        <a href="${encodeURI(doc.path)}" target="_blank" rel="noopener">Mở ${escapeHtml(doc.type)} ${escapeHtml(doc.format || 'PDF')} ↗</a>
       </article>`).join('');
   }
 
@@ -95,7 +96,7 @@
 
   function populateFilters() {
     const sourceFilter = $('#sourceFilter');
-    data.documents.forEach((doc) => sourceFilter.add(new Option(doc.place === 'Toàn quốc' ? 'Bộ KH&CN' : doc.place, doc.id)));
+    data.documents.forEach((doc) => sourceFilter.add(new Option(doc.level === 'Bộ ngành' ? doc.authority : doc.place, doc.id)));
 
     [...new Set(data.problems.map((item) => item.year))].sort().forEach((year) => $('#yearFilter').add(new Option(year, year)));
     [...new Set(data.problems.map((item) => item.field))].sort((a, b) => a.localeCompare(b, 'vi')).forEach((field) => $('#fieldFilter').add(new Option(field, field)));
